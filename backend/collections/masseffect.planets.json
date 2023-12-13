@@ -1,0 +1,1702 @@
+[{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432ab"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "Mass Effect 2",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEN": "Amaterasu",
+  "descriptionEN": "Amaterasu is a human colony, home to Ashley Williams' mother and sisters. It lies about a dozen light-years from the Czarnobóg Fleet Depot and is one of the smaller Alliance colonies. In 2181, Ashley took a week of extraordinary leave to return home to take care of her youngest sister, Sarah. Amaterasu is a terminus on the Illium-Amaterasu shipping lane. In 2185, as security advisories are being issued against travel to human colonies, none are issued for Amaterasu, possibly due to its proximity to an Alliance base.",
+  "nameRU": "Аматерасу",
+  "descriptionRU": "Аматерасу (англ. Amaterasu — колония людей, дом Эшли Уильямс, её матери и сестры. Эта колония лежит в дюжине световых лет от Быстроходного Склада Кзарнобог, и является одной из малых колоний Альянса. В 2181 году, Эшли взяла неделю экстраординарного отпуска, чтобы вернуться домой, и позаботиться о своей младшей сестре, Саре. Аматерасу — конечная остановка на маршруте Иллиум-Аматерасу (узнать можно, посмотрев расписание отправлений межпланетных шаттлов на стоянке такси Нос-Астра). Также там можно увидеть отменённые рейсы и оповещения безопасности, которые предостерегают инопланетян от посещения человеческих колоний. Однако, ни одно оповещение не было выпущено для Аматерасу, возможно из-за близости этой колонии к границе с пространством Цитадели. На планету регулярно отправляется шаттл из космопорта Нос-Астра, Иллиум."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432ac"
+  },
+  "image": "https://static.wikia.nocookie.net/masseffect/images/9/97/Thresher_Maws_Codex_Image.jpg/revision/latest?cb=20100306192106&path-prefix=ru",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "false",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "Akuze",
+  "descriptionEn": "Akuze is a human colony on the outskirts of Systems Alliance space. In 2177, Akuze was in the early stages of colonization when all contact was lost with the pioneer team. An Alliance Marine unit was then sent in to investigate, but found only the intact settlement and no survivors. When the unit camped for the night, they were set upon by thresher maws. Not knowing what they faced, the unit was slaughtered almost to the last man; fifty marines were lost, and only one made it back to the landing zone alive.",
+  "notesEn": [
+    {
+      "title": "Mass Effect",
+      "p": "If Commander Shepard has the Sole Survivor background, the Commander was the only known Marine to make it out of Akuze alive. If Shepard meets Officer Eddie Lang on the Citadel with this background, Lang will comment on a monument at Akuze and an entire section dedicated to Commander Shepard, suggesting that the colony of Akuze survived the thresher maw massacre, or at least that a new one was established in its place. Shepard can later discover that there was another survivor, Corporal Toombs, who claims the slaughter at Akuze was not an accident. According to Toombs, the renegade black ops group Cerberus deliberately set the thresher maws on the marines, to study the creatures and see how the unit reacted."
+    },
+    {
+      "title": "Mass Effect 2",
+      "p": "If Commander Shepard has the Sole Survivor background, there is a news announcement about a Shepard Memorial being erected on Akuze, and that once the site is cleared of thresher maws, a commemoration ceremony hosted by Admiral Steven Hackett will be held in 2186. If Shepard rescued Toombs in Mass Effect, the Commander will receive a threatening message from him about Shepard's new alliance with Cerberus."
+    },
+    {
+      "title": "Mass Effect 3",
+      "p": "If Shepard has the Sole Survivor background, a recording can be found on Cronos Station showing a Cerberus scientist remarking to the Illusive Man that Cerberus caused the Akuze incident, confirming Corporal Toombs' original claims."
+    }
+  ],
+  "nameRu": "Акуза",
+  "descriptionRu": "Акуза (англ. Akuze) — планета, которая упоминается в предыстории Шепард(а). Она также упомянута в миссии Траверс: Мёртвые ученые. В 2177 году Акуза была на ранней стадии колонизации людьми, когда была потеряна связь с командой учёных. Альянс отправил отряд солдат, чтобы заняться расследованием и найти оставшихся в живых. Когда солдаты расположились лагерем ночью, они нашли гнездо молотильщика. Пехотинцы понятия не имели, с чем они столкнулись, и все солдаты были убиты. Погибло пятьдесят пехотинцев. Небольшая колония людей в Аттическом Траверсе. В 2177 году подверглась полному уничтожению из-за нападения молотильщиков (один из совместных экспериментов Альянса и Цербера). Также молотильщики уничтожили и экспедиционный отряд Альянса, занимавшийся расследованием инцидента.",
+  "notesRu": [
+    {
+      "title": "Mass Effect",
+      "p": "Если у Шепард(а) психологический портрет Уцелевший, то капитан был(а) единственным известным солдатом, который остался(лась) в живых на Акузе, хотя неизвестно, как конкретно Шепард(у) удалось выжить. Если Шепард с этим психологическим портретом встречается на Цитадели с офицером по имени Эдди Лэнг, то Лэнг прокомментирует памятник на Акузе, посвящённый капитану Шепард(у) и всему отряду, предполагая, что колония пережила резню с молотильщиком не случайно или, по крайней мере, что ещё один был найден в том же месте. Шепард может позже обнаружить, что есть другой оставшийся в живых — капрал Тумс, который утверждает, что резня на Акузе не была несчастным случаем. Согласно словам Тумса, террористическая группа «Цербер» сознательно устроила засаду в гнезде молотильщика на пехотинцев, чтобы изучить это существо и увидеть его поведение."
+    },
+    {
+      "title": "Mass Effect 2",
+      "p": "Если психологический портрет Шепард(а) — Уцелевший, то в новостях на Цитадели можно услышать о мемориале Шепард(а), устанавливаемом на Акузе, и что, как только место будет очищено от молотильщиков, церемония открытия, утверждённая адмиралом Стивеном Хакетом, будет проведена в 2186 году. Если Шепард спас(ла) Тумса в Mass Effect, то капитан получит угрожающее сообщение от него о новом союзе Шепард(а) с «Цербером»."
+    },
+    {
+      "title": "Mass Effect 3",
+      "p": "Если психологический портрет Шепард(а) — Уцелевший, то вы услышите дополнительный диалог рядом с одним из компьютеров «Цербера» во время нападения на его базу на станции «Кронос». Главный учёный докладывает Призраку о том, как «Цербер» устроил инцидент на Акузе."
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432ad"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "false",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Арканес",
+  "descriptionRu": "Газовый гигант, на орбите которого находятся заправочные станции Гелия-3. Планета стала известна после того, как космическое судно семьи Соренсон с Иден Прайм оказалось захвачено гравитацией планеты и стало терпеть крушение. Судно было спасено благодаря самопожертвованию старшей дочери Кристал."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432ae"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "false",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Армали",
+  "descriptionRu": "Одна из старейших колоний азари, известная производством уни-инструментов и биотических усилителей. В 2185 году агенты Серого Посредника установили на планете квантовомеханическое оборудование. Также на планете сформировано одно из элитных военных подразделений азари. "
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432af"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Аэгор",
+  "descriptionRu": "Одна из первых колоний саларианцев, которые они основали за пределами родной системы. Является внутренней территорией Союза."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432b0"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Баэтика",
+  "descriptionRu": "Турианская мятежная колония времён Войны за Объединение."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432b1"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Белан",
+  "descriptionRu": "Одна из колоний ханаров, название переводится как 'подводное течение'. Родина известного на всю галактику декоративного вида медуз. В феврале 2185 года вблизи планеты прошла комета CR1331 'Кингу', которая вызвала разрушительные цунами и гигантские приливы и отливы. Произошедшая катастрофа получила название 'Беланский кризис'."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432b2"
+  },
+  "image": "",
+  "systemName": "Система Альфа Центавра",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Безымянная колония",
+  "descriptionRu": "Данная колония людей была открыта исследовательским кораблём азари 12 января 2186 года. Как выяснилось впоследствии, человеческое население планеты является потомками участников межзвёздной экспедиции Виктора Мансвела 2075 года, с которыми вскоре была потеряна связь и их сочли погибшими."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432b3"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "false",
+    "satelite": "true",
+    "colony": "false",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Войя (спутник)",
+  "descriptionRu": "Популярнейший в галактике туристический центр, известный крупнейшим стадионом 'Партинад' и аквапарком. Батарианский террорист Горек произвёл на луне несколько террактов."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432b4"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Галатана",
+  "descriptionRu": "Турианская мятежная колония времён Войны за Объединение."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432b5"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Гатали",
+  "descriptionRu": "Колония азари. 16 октября 2185 года в Королевском Центре Образования и Искусств началась двухнедельная серия лекций о Крогансих Восстаниях."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432b6"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Гембат",
+  "descriptionRu": "Бывшая колония кроганов на Внутренней территории Совета. В период войны со Жнецами на планете располагался аванпост саларианских ГОР. Именно с этой планеты происходит родом знаменитый варрен Гримрендер."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432b7"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Готис",
+  "descriptionRu": "Турианская мятежная колония времён Войны за Объединение."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432b8"
+  },
+  "image": "",
+  "systemName": "Система Дельта Павлина",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "Demeter",
+  "descriptionEn": "Demeter is a garden world colonized by humans in 2152, and their first extrasolar colony. This planet is in a system within reach of conventional FTL drives from the Sol system and was colonized before any system beyond the Charon Relay. The investment money for this colony is raised by the Delta Pavonis Foundation. By 2185, Demeter is home to the Ross School of Art.",
+  "notesEn": [
+    {
+      "title": "Trivia",
+      "p": "Demeter may be named after the goddess of agriculture and wheat in Greek mythology."
+    }
+  ],
+  "nameRu": "Деметра",
+  "descriptionRu": "Деметра (англ. Demeter) — мир-сад в системе Дельта Павлина, колонизированный человечеством в 2152. Это первая человеческая колония за пределами Солнечной системы (19,9 световых лет). Инвестиционные деньги для этой колонии заработаны фондом Основания Дельты Павлина. Первая колония людей за пределами родной системы. Колонизация началась в 2152 году при активном содействии фонда Основания Дельты Павлина.",
+  "notesRu": [
+    {
+      "title": "Интересные факты",
+      "p": "*Деметра названа в честь богини сельского хозяйства и пшеницы в греческой мифологии.*В 2185 году на 27 уровне в районе Закера (Цитадель) можно услышать рекламу Школы Искусств Росса, расположенной на Деметре, и предлагающей пройти бесплатное тестирование (ключевые слова «Росс», «искусство», «образование», «счастливые деревья»).*Интересен выбор системы Дельта Павлина, находящейся достаточно далеко от Солнечной системы (в отличии от системы Альфа Центавра, например, где позднее была обнаружена колония, основанная пропавшей экспедицией Мансвелла). Вероятно, это обосновано тем, что система очень похожа на родину человечества. Также, это могло быть тестом для предельного испытания ССД на основе эффекта массы."
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432b9"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "notesEn": [
+    {
+      "title": "",
+      "p": ""
+    }
+  ],
+  "nameRu": "Дагнес",
+  "descriptionRu": "Колония, одно из саларианских поселений которой было практически уничтожено молотильщиками. По трагическим событиям был снят фильм 'Демон и Кошмар'."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432ba"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "Daleon",
+  "descriptionEn": "Daleon is a small volus colony. It is notable because in around 2183, the quarian Migrant Fleet is passing through a volus-controlled system near the edge of Council Space. According to news reports some volus diplomats have launched an appeal to the Citadel Council to take action and hasten the flotilla's departure, though in the aftermath of the Battle of the Citadel the Council is guessed to have their hands full with other matters. ",
+  "notesEn": [
+    {
+      "title": "Mass Effect: Ascension",
+      "p": "After Cerberus' attempt at reclaiming their biotic asset Gillian Grayson from the flotilla, Kahlee Sanders and Lemm'Shal vas Idenna intend to drop off former Cerberus agent Paul Grayson on Cuervo, the nearest Alliance colony. During the shuttle ride Grayson manages to snatch Kahlee's stunner and knocks them both out, allowing him to escape and avoid being taken into custody. Once Kahlee and Lemm come to, they instead find their shuttle docked with Daleon's spaceport. Lemm points out that Grayson could still be somewhere on the colony and suggests they go search for him, but Kahlee declines and asks that he return her to the Grissom Academy instead. "
+    }
+  ],
+  "nameRu": "Далеон",
+  "descriptionRu": "Небольшая колония волусов на границе Внешних территорий Совета. В 2183 году в пределах её системы располагался Мигрирующий Флот кварианцев. На этой планете Пол Грейсон сбежал от Кали Сандерс, которая хотела его сдать властям Альянса. Далеон (англ. Daleon) — небольшая колония волусов на краю пространства Цитадели. Она примечательна тем, что  в 2183 году Мигрирующий флот находился неподалёку от территорий Протектората Вол и использовал близлежащие ретрансляторы для перемещения дальше. Волусы отправили обращение в Совет Цитадели, чтобы принять меры и убедить кварианцев уйти, однако, поскольку это случилось вскоре после нападения гетов, у Совета оказалось и без того полно дел, чтобы заниматься, вдобавок, и кварианцами. ",
+  "notesRu": [
+    {
+      "title": "Mass Effect: Восхождение",
+      "p": "Пол Грейсон, Кали Сандерс и Лемм оказываются на Далеоне совершенно случайно: первоначально Грейсона собирались высадить на ближайшей колонии Альянса Куэрво, однако он сумел освободиться и, выведя из строя Кали и Лемма, перенаправил судно на Далеон, в космическом порту которого сбежал. Когда Кали и Лемм приходят в себя, кварианец предполагает, что Грейсон всё ещё где-то в космопорте, так что они могли бы спуститься на планету и попытаться его разыскать, но Сандерс вместо этого просит отвезти её в Гриссомскую академию."
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432bb"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Драста",
+  "descriptionRu": "Планета земного типа. Совсем недавняя колония людей, прекрасные климатические условия которой власти хотели бы использовать в качестве приманки для потенциальных переселенцев. Ещё одной особенностью колонии является первоначальное создание поселенцами производящей экономики бартерного типа, а не общепринятого финансового."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432bc"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "false",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Дретироп",
+  "descriptionRu": "В 2171 году Университет Серрайса профинансировал на этой планете археологическую экспедицию под руководством профессора Хеннел. В раскопках протеанских руин принимала участие и Лиара Т'Сони."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432bd"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Джуай",
+  "descriptionRu": "Небольшая планета в Скиллианском Пределе. Имеет два спутника: меньший — Яндо и больший — Бадми. Столица колонии — Фенд. Скорее всего в колонии смешанное население. В 2160 году СПЕКТР Сарен Артериус пресёк передачу турианского военного снаряжения местным банадам и узнал об участии 'Синих Светил' в проекте, который проводил Эдан Хад'дах."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432be"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "false",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Кассилда",
+  "descriptionRu": "Планета-сад, практически необитаемая из-за экологического дисбаланса, вызванного выращиванием инопланетной растительности."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432bf"
+  },
+  "image": "https://static.wikia.nocookie.net/masseffect/images/c/cc/Homeworlds_Kahje.png/revision/latest?cb=20120830032145",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "false",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "Kahje",
+  "descriptionEn": "With 90% of its surface covered by a vast ocean known as the Encompassing, Kahje is permanently enveloped in a blanket of clouds created by the heat from its energetic white star. Beneath that cloud cover, the planet's land area consists solely of small islands. Kahje's atmosphere is perfect for life; while containing some traces of ammonia, it consists primarily of oxygen, hydrogen, and nitrogen, similar to that on Earth. Unfortunately, the climate has also proved too humid for the non-native drell, who were evacuated there from their own dying homeworld by the hanar two centuries earlier, and they have found it more tolerable to live in climate-controlled domed cities. Kahje is also dotted with Prothean ruins, which has shaped the religion and society of the hanar. Mount Vassla, an underwater volcano, is at the heart of one of the largest Prothean ruins. The winners of the religious events of the hanar holiday of Nyahir (or 'First Cresting Bloom') are inscribed in bioluminescence on the sides of the mountain for a year afterward.",
+  "notesEn": [
+    {
+      "title": "Mass Effect: Homeworlds",
+      "p": "Liara T'Soni travels to Kahje seeking a way to stop the Reapers from the planet's Prothean archives. At a submerged Prothean site that the hanar used as a shrine, she discovers a lead: a set of encryption keys that accesses archives on other planets, including Mars."
+    },
+    {
+      "title": "Mass Effect 3",
+      "p": "During an investigation of a hanar diplomat in 2186, if Shepard fails to stop the indoctrinated hanar diplomat Zymandis from sabotaging Kahje's automated planetary defense systems, the planet will be quickly overrun and decimated by Reaper forces. If Shepard succeeds, they manage to save the planet and get the hanar and drell fleet."
+    },
+    {
+      "title": "Additional Information",
+      "p": "*Kahje is the terminus of an Illium-Kahje shipping lane.*Known plant life on the water world includes the lerian. It's a bioluminescent sea fern with small pods.*The domed Cnidaria City is the only place on Kahje where drell can live without immediately succumbing to Kepral's Syndrome. One drell's recollections on the place depicts it as a crime-infested slum akin to a noir setting"
+    }
+  ],
+  "nameRu": "Кахье",
+  "descriptionRu": "Планета-океан, родной мир расы ханаров. 90% площади планеты покрыто 'Всеобъемлющим' океаном. На планете находится большое количество остатков Протеанской цивилизации, имеющих для коренного населения религиозный оттенок. Имеется мощная, но автоматизированная, орбитальная защита. Около 90 % поверхности планеты покрыто огромным океаном, известным как Всеобъемлющий. Кахье окутана постоянным покровом облаков, создающимся благодаря теплу, активно выделяемому белой звездой. Под облачным покровом поверхность суши планеты состоит исключительно из небольших островов. Атмосфера Кахье идеальна для жизни, она состоит в основном из кислорода, водорода и азота и подобна земной, однако содержит следы аммиака. К сожалению, климат оказался слишком влажным для неместных дреллов, которые были эвакуированы сюда со своей умирающей родной планеты ханарами двумя столетиями ранее, и они нашли его более терпимым для жизни в куполообразных городах с климат-контролем. Кахье также усеяна протеанскими руинами, которые сформировали религию и общество ханаров. Гора Вассла, подводный вулкан, находится в центре одних из крупнейших протеанских руин. Победители религиозных событий ханарского праздника Нуахира (или Первого цветения гребня) вписываются в биолюминесценцию на сторонах горы на год позже.",
+  "notesRu": [
+    {
+      "title": "«Mass Effect: Родина»",
+      "p": "Лиара Т’Сони прилетает на планету ханаров с целью найти нечто полезное в борьбе со Жнецами в старых протеанских руинах, скрытых под водой. Там нет нужных данных, но есть указание, что необходимая информация есть в протеанском комплексе на Марсе."
+    },
+    {
+      "title": "Mass Effect 3",
+      "p": "В Mass Effect 3 Шепард встречается с одурманенным послом ханаров на Цитадели. Ханар вводит вирус в систему безопасности планеты. Если Шепард успеет это предотвратить, то он спасёт планету, а также получит в помощь в борьбе со Жнецами флот дреллов. Иначе планета будет быстро уничтожена."
+    },
+    {
+      "title": "Интересные факты",
+      "p": "*Кахье очень напоминает по своей сути планету Камино из вселенной «Звёздных войн».*7 ноября (N7 day) 2019 года генеральный директор BioWare Кейси Хадсон выложил в Twitter четыре ранее не публиковавшихся концепт-арта. На одном из них явно изображена планета Кахье."
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432c0"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Кай-Мораг",
+  "descriptionRu": "Батарианская колония. В 2185 году Гегемония начала производство и развёртывание на планете системы фокусирующих орбитальных зеркал, якобы для терраформирования планеты, но также могла использоваться в качестве термоклиматического оружия. Это вызвало дипломатический кризис, который был прекращён только после уничтожения производящего завода отрядом спецназа N7 и последующих экстренных переговоров."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432c1"
+  },
+  "image": "",
+  "systemName": "Система Джорноус",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "false",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Копанис",
+  "descriptionRu": "Запрещённая к посещению планета в системах Терминус, являющаяся убежищем приверженцев секты 'Пакт Уровня', выступающих против технического прогресса. 10 октября 2185 года геодезист компании 'Ояма Индастриз' Джейсон Пиррус совершил посадку на планете и был зверски убит фанатиками. Спустя пять дней колония подверглась опустошительной атаке, совершённой наёмниками (предположительно 'Затмения'). В организации одной из крупнейших частных атак подозревается отец жертвы — миллиардер Байрон Пиррус."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432c2"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Кет'ош",
+  "descriptionRu": "Древняя кварианская колония в Аттическом Траверсе, покинутая из-за войны с гетами. В период войны со Жнецами на планете был расположен огромный массив датчиков, следящих за перемещениями в соседних системах."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432c3"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "false",
+    "satelite": "true",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Кирена (спутник)",
+  "descriptionRu": "Спутник газового гиганта Идмон, на котором была расположена человеческая колония, служащая перевалочным пунктом между скоплением Туманность Титана и системами Терминуса. В январе 2185 года Кирена была опустошена Коллекционерами."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432c4"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "false",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Кош",
+  "descriptionRu": "Планета в Аттическом Траверсе, известная самым высоким зданием в обитаемой части космоса. Небоскрёб 'Межпланетный 1' имеет 1002 этажа и содержит всю необходимую инфраструктуру для функционирования и развлечений."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432c5"
+  },
+  "system": "",
+  "planet": "Куэрво",
+  "descriptionRu": "Колония людей, подчиняющаяся Альянсу Систем. В 2183 году Кали Сандерс собиралась там передать Пола Грейсона официальным властям в обмен на сотрудничество. В 2185 году наёмники 'Затмения' построили на планете завод по производству красного песка."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432c6"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Крулжавен",
+  "descriptionRu": "Колония людей, известная своим шоу кровавых боёв варренов 'Варрен Кеннел Клаб'. Планета имеет очень похожие на Кхар'шан природными условиями, из-за чего происходят различные дипломатические скандалы, поскольку на планете проходят суровую тренировку бойцы Альянса. 5 января 2186 года на планете прошёл совместный военный парад людей и турианцев."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432c7"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Магна",
+  "descriptionRu": "Турианская мятежная колония времён Войны за Объединение."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432c8"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Мановай",
+  "descriptionRu": "Одна из первых колоний саларианцев, которые они основали за пределами родной системы. Является внутренней территорией Союза. Судя по всему, являлась изначальной базой для участников Лиги Единения, потому что археологической группе азари удалось найти некоторое количество медальонов участников 400 лет назад, погибших при защите колонии от нападения батарианского флота. Продукция планеты рекламируется даже на Цитадели."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432c9"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Манрини",
+  "descriptionRu": "Колония стала известной в СМИ после того, как 21 октября 2185 года на одном из аукционов был обнаружен турианский чип данных, содержащий секретнейшую информацию военного характера."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432ca"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "Mindoir",
+  "descriptionEn": "A human farming colony in the Attican Traverse, Mindoir was raided in 2170 by batarian slavers, who slaughtered most of the colonists. Those not fortunate enough to die immediately were subjected to horrific cranial implants that the batarians used to control them. The Alliance dispatched troops to drive the batarians out, but their defenses were too strong. The Marines were pinned down, forced to watch the suffering colonists but unable to reach them. The atrocity on Mindoir may have been a batarian retaliation against humanity's aggressive colonization of worlds in the Skyllian Verge.",
+  "notesEn": [
+    {
+      "title": "Mass Effect",
+      "p": "If Commander Shepard has the Colonist background, the Commander was born into a farming family on Mindoir and was sixteen when the raid came. Shepard's friends and relatives were all killed, but Shepard survived and was rescued by an Alliance patrol. Shepard can also meet another survivor of Mindoir, a girl named Talitha suffering from Stockholm Syndrome after marines killed her batarian 'masters'. If Shepard has the Spacer background, Shepard's mother and her friend Lieutenant Ernesto Zabaleta served on the carrier SSV Einstein, which responded to the Mindoir raid. The atrocities the slavers inflicted on their victims caused Zabaleta to become afflicted with Post-Traumatic Stress Disorder, which Shepard can later attempt to help treat. If Shepard has the War Hero background, Officer Eddie Lang mentions that when Shepard was awarded the Star of Terra for acts of heroism on Elysium, he viewed the broadcast of the ceremony on Mindoir, indicating the settlements on Mindoir were rebuilt. "
+    },
+    {
+      "title": "Mass Effect 2",
+      "p": "Mindoir has a regular shuttle route to Nos Astra on Illium. Due to security advisories, after attacks on several human colonies, the route is canceled until further notice. If Shepard has the Colonist background, a news broadcast will reveal that Mindoir has won the right to use Shepard's likeness on its colonial seal."
+    },
+    {
+      "title": "Mass Effect 3",
+      "p": "During the mission to investigate a Prothean artifact on Eden Prime, if Shepard has the Colonist background, party banter will comment on how much the people of Eden Prime have gone through, first with a geth attack, and now a Cerberus occupation. They'll continue to say that the people are strong and will rebuild, to which Shepard will retort: 'They rebuilt Mindoir. It wasn't the same.'"
+    }
+  ],
+  "nameRu": "Мендуар",
+  "descriptionRu": "Мендуар (англ. Mindoir) — небольшая пограничная колония в Аттическом Траверсе. Планета-сад в Скиллианском Пределе, на которой расположена небольшая колония людей. Основная деятельность — фермерство. В 2170 году подверглась опустошительному нападению батарианских работорговцев, спонсированному Батарианской Гегемонией в отместку за агрессивную колонизацию батарианских регионов Альянсом систем. К 2185 году поселение было восстановлено и даже имело регулярную связь с Иллиумом.",
+  "notesRu": [
+    {
+      "title": "Mass Effect",
+      "p": "Если Шепард — Колонист, он (она) родился(ась) в крестьянской семье на Мендуаре. Ему (ей) было всего 16, когда напали батарианцы. Все друзья и родственники были убиты, но Шепард выжил(а) и был(а) спасён(а) патрулём Альянса. Впоследствии Шепард встретит на Цитадели ещё одного выжившего с Мендуара: Талиту, страдающую от стокгольмского синдрома, после того как морпехи убили её батарианских «господ»."
+    },
+    {
+      "title": "Интересные факты",
+      "p": "*Если Шепард — Колонист, то он (она) вырос(ла) на Мендуаре и будет считать его своей родиной в дальнейшем.*В этом же случае Мендуар упоминается как место, где Шепард потерял(а) родителей и всех друзей.*Если Шепард — Колонист, то в Mass Effect 3 на Иден Прайм (DLC: Из пепла) во время диалога с сопартийцами он (она) скажет, что Мендуар отстроили, но он не стал прежним.*Одним из выживших на Мендуаре также является Лани, пилот «Гипериона» — её родители погибли во время рейда работорговцев."
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432cb"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Мизери",
+  "descriptionRu": "Планета с весьма суровыми условиями обитания, на которой расположена одна из тюрем Альянса для военных, совершивших особенно тяжкие преступления. Именно на ней в 2176 отбывал свой срок Кай Лен (и Кори Ким) до тех пор, пока их не завербовали в 'Цербер'."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432cc"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Насурн",
+  "descriptionRu": "Колония саларианцев, скорее всего расположенная на границе систем Терминуса или Аттического Траверса. В городе Аэгор СПЕКТР Тела Вазир провела одну из крупнейших операций по ликвидации рабовладельческих сетей — было арестовано более 200 работорговцев."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432cd"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Ниминос",
+  "descriptionRu": "Турианская мятежная колония времён Войны за Объединение. "
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432ce"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Нью-Кантон",
+  "descriptionRu": "Колония людей, расположенная в Системах Терминуса, в одной звёздной системе с планетой Феррис-Филдс. Подверглась нападению Коллекционеров в 2185 году.  У члена команды Ролстона, служашего на Нормандия SR-2, есть семья, живущая на этой планете. Этой планете угрожают и позже нападают Коллекционеры, но после того как семья Ролстона эвакуируется."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432cf"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Олор",
+  "descriptionRu": "Колонизируемая саларианцами и людьми планета. В начале 2186 года в колонии вспыхнула восстание из-за права на использования водных ресурсов, когда выяснилось, что обеспеченные саларианцы имеют к воде неограниченный доступ, в отличии от бедных землян."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432d0"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "false",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Парнак",
+  "descriptionRu": "Родная планета расы ягов. Специальным постановлением Совета обитателям планеты запрещено покидать её, так же существует запрет на посещение. Исходя из крайней агрессивности ягов (наравне с кроганами и ворка), можно предположить, что условия обитания на планете крайне суровые, порождающие соответственные поведенческие паттерны и инстинкты."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432d1"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Парфия",
+  "descriptionRu": "Турианская мятежная колония времён Войны за Объединение."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432d2"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Преджек",
+  "descriptionRu": "Ханарский водный мир, известный как место обитания необычного вида рыб: преджекского веслоноса, считающегося изысканным деликатесом."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432d3"
+  },
+  "image": "https://static.wikia.nocookie.net/masseffect/images/1/1f/ME2_%D0%97%D0%B0%D0%BF%D0%B8%D1%81%D1%8C_%D0%92%D0%B8%D1%82%D0%BE%D1%80%D0%B0.png/revision/latest?cb=20131119081118&path-prefix=ru",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "Колония 'Путь свободы' — типичное поселение Альянса. Недавно связь с ней прервалась, просочились неподтвержденные слухи о полном уничтожении колонии, что вызывает опасение в определённых кругах галактического сообщества. Потеря связи с колонией произошла после усиления её небольшого гарнизона (при поддержке сторожевых дронов и роботов), высокомощными башенными лазерами комплекса ПОИСК. Колонисты жаловались на дороговизну лазеров, шум и задержки полётов при установке системы, а также на урон, нанесённый окружающей среде. Кроме того, они опасались, что наличие оборонного комплекса покажется провокацией их соседям. Возможно, их страхи не были беспочвенны. Власти до сих пор никак не комментируют прекращение связи, что порождает слухи о том, что на планете разразилась чума, произошла природная катастрофа или массовое ритуальное самоубийство. Расположенная в стратегически малозначительном месте, колония радовала глаз поселенцев красивыми радугами, пышной болотистой местностью и высокими горными кряжами. Своим сельскохозяйственным и туристическим потенциалом она могла поспорить с любой другой колонией Альянса. ",
+  "nameEn": "Freedom's Progress",
+  "descriptionEn": "Freedom's Progress is a human colony located in the Terminus Systems. Situated on blocky terrain, its nighttime skyline is dominated by what appears to be two moons: a large one hanging overcast, and another one roughly analogous to Luna in size and brightness. It appears to be home to nocturnal lifeforms whose cries are similar to Earth wolves'. Freedom's Progress is a typical human settlement, with little defenses beyond a small military force, supplemented by mechs and security drones like LOKI Mechs, YMIR Mechs, FENRIS Mechs, Assault Drones and Rocket Drones. ",
+  "notesEn": [
+    {
+      "title": "Disappearance",
+      "p": "According to data collected by the Collectors, Freedom's Progress has a human population of 912,810 in 2183. Two years later, the Collectors attack the colony. Commander Shepard travels to Freedom's Progress several hours after the Collectors left and finds the inhabitants of the entire colony missing, with no signs of conflict. While there, the Commander encounters Tali'Zorah vas Neema, Prazza, and several other quarians who are searching for another of their kind, Veetor'Nara, who has gone missing while on his Pilgrimage. However, while there, the Commander is confronted by various security drones reprogrammed by Veetor to attack anyone in the area, in order to protect himself should the Collectors return. The colony's abduction has been recorded by Veetor on his omni-tool. Thanks to this evidence, the Illusive Man has proof the Collectors are involved in attacks on several other human colonies. News of the disappearance of Freedom's Progress eventually make their way to the galactic community, although reported details remain scant and redacted by sources like the Systems Alliance. Rumors eventually disseminated, with sources claiming it was possibly a politically-motivated terrorist attack from former Council races, enough to make the Citadel Council make formal information requests to the Special Tasks Group. The footage recorded by Veetor which shows the Collectors abducting humans made its way to the Shadow Broker, and can be seen on two screens at the Intel Center in the Shadow Broker Base. Aid has been swiftly dispatched to the colony although it is unclear if there are any survivors to receive them. Raiders and pirates also jumped at the opportunity and staked out the routes leading to the colony. "
+    }
+  ],
+  "nameRu": "Путь Свободы",
+  "descriptionRu": "Типичная человеческая колония в Системах Терминус, с очень высоким потенциалом освоения. В 2185 году подверглась опустошительному нападению Коллекционеров. Путь Свободы является типичным человеческим поселением с небольшой военной силой, которую в основном составляют роботы безопасности. Капитан Шепард направляется в Путь Свободы для расследования нападения на колонию коллекционерами. Колония была атакована за несколько часов до прибытия Шепард(а), признаков сопротивления нет. Капитан встречает Тали'Зору, Праззу и других кварианцев, ищущих своего соплеменника, Витора, который пропал без вести во время своего Паломничества. Шепард сталкивается с различными дронами безопасности, которые, как выясняется позднее, были перепрограммированы Витором, для защиты от Коллекционеров. Кварианец находится в нестабильном состоянии и не осознаёт, что Коллекционеры уже улетели. ",
+  "notesRu": [
+    {
+      "title": "Интересные факты",
+      "p": "В комиксе Mass Effect: Вторжение указано, что колония Путь Свободы в 2183-м году имела население 912.810 человек.*Видеозаписи о том, как Коллекционеры похищают людей, записанные Витором, можно увидеть на двух экранах в штаб-квартире Серого Посредника.*Если Шепард — землянин и оставил в живых Финча в Mass Effect, то тот упомянет в письме, что в колонии Путь Свободы у него были родственники."
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432d4"
+  },
+  "image": "https://static.wikia.nocookie.net/masseffect/images/2/27/Codex_Rakhana.png/revision/latest?cb=20100613042801",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "false",
+    "station": "false"
+  },
+  "codex": "На Рахане, родной планете дреллов, некогда бурлила жизнь, ее засушливые равнины заселяло множество причудливых насекомых и рептилий. Но потом дреллы перешли к ускоренной индустриализации, а когда осознали опасность чрезмерно быстрого промышленного роста, было уже поздно. Пахотные слои почвы на планете были истощены, океаны из-за своей кислотности не могли поддерживать жизнь, и к 2025 г. дреллы оказались перед угрозой вымирания. Именно тогда к дреллам прибыли ханары, организовавшие крупномасштабную операцию по переселению дреллов на свою планету Кахье. С ханарами отправилось примерно 375000 дреллов, на Рахане же начались войны за оставшиеся ресурсы, в результате которой миллиарды оставшихся погибли. В уплату за спасение дреллы заключили с ханарами соглашение. Это соглашение, названное Договором, гласит, что дреллы должны помогать ханарам в делах, которые ханары физически не в состоянии выполнить. Сегодня многие высокопоставленные ханары буквально неразделимы со своими помощниками-дреллами. ",
+  "nameEn": "Rakhana",
+  "descriptionEn": "Rakhana in the present day is a dry and barren planet covered in rocky deserts. Around the 1380s CE, disastrous industrial expansion began to ruin the planet's sustainability over the next few centuries. The drell numbered 11 billion at their height, but they lacked the means to escape their homeworld. Fortunately, the hanar made first contact with the drell around the 1980s CE, and over the following decade they evacuated thousands of drell to their own homeworld, Kahje. The remaining billions left on Rakhana gradually perished on their dying planet, warring against each other for diminishing resources. Rakhana nowadays is a cemetery world, home to only a few thousand drell living in clusters never exceeding a few hundred; during pilgrimage season the population can double. ",
+  "notesEn": [
+    {
+      "title": "Additional Information",
+      "p": "Rakhana used to have flowers called usharet - sweet-smelling blossoms with scarlet petals. The flowers are of some cultural significance to the drell; these can be turned into perfumes or used in artfully-designed topiaries."
+    }
+  ],
+  "nameRu": "Рахана",
+  "descriptionRu": "Родная планета расы дреллов. Имеет крайне засушливый климат, что привело к быстрой деградации экосистемы после бурного индустриального роста. Часть населения было спасено ханарами, остальные погибли в междоусобных войнах за остатки ресурсов. Восемь веков назад и без того известная своей засушливостью Рахана, родная планета дреллов, стала непригодной для жизни из-за чрезмерно быстрого индустриального роста. Без вмешательства ханаров не умеющие совершать межзвездные перелеты дреллы, чья численность стремительно превысила 11 миллиардов, были бы обречены. После первого контакта с дреллами, ханары в течение следующих десяти лет перевезли 375000 пожелавших переселиться дреллов на свою родную планету Кахье. Оставшиеся на Рахане миллиарды дреллов умирали, сражаясь друг с другом за исчезающие запасы воды и пищи. Сейчас на Рахане выжило всего несколько тысяч дреллов, селящихся общинами численностью не более нескольких сотен. В сезон паломничества население вымершей Раханы может увеличиваться вдвое. Дреллы состоят в галактическом сообществе примерно два столетия. Большая их часть обитает на Кахье, вполне довольная соседством с ханарами. Склонные к авантюрам дреллы покидают Кахье. Переняв от ханаров острое восприятие языка тела, путешествующие дреллы стремятся войти в контакт с новыми расами, принимают их культуру и редко возвращаются домой. Таких дреллов несколько тысяч, они рассеяны по всей галактике и тяготеют к размеренной, спокойной жизни. На Кахье ханары предоставили дреллам все возможности для процветания. Хотя другие расы и даже некоторые ханары зачастую относятся к дреллам как к младшим партнерам (если не слугам), дреллам удалось закрепиться во всех слоях ханарского общества и стать уважаемыми и востребованными его членами. "
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432d5"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Сатур",
+  "descriptionRu": "Человеческая колония с крайне влажным климатом, на которой прошли волнения после того, как власти предложили в рамках борьбы с безработицей выращивать оссилбир — высококалорийный виноград, являющийся важнейшим компонентом рациона солдат Альянса. Одним из побочных эффектов выращиваемого на планете сорта винограда стало образование на поверхности ягод плесени, вызывающей галлюцинации у левоаминокислотных видов."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432d6"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Сенокуол",
+  "descriptionRu": "Саларианская колония. На планете есть военные производства, обеспечивающие снабжение Третьего Флота Саларианского Союза."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432d7"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "false",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Сифурман",
+  "descriptionRu": "Планета с низкой гравитацией, прежде считавшаяся безжизненной, в слоях коры которой были обнаружены останки самых крупных в галактике наземных существ (массой в несколько сотен тонн при земной гравитации)."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432d8"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Тахарон",
+  "descriptionRu": "Небольшая человеческая колония. В ноябре 2185 года на планете разразился серьёзный катаклизм из-за мощного землетрясения, приведшего к образованию трещин на дне океана и в глубинных водоносных слоях. В результате в воду стали попадать токсические микроорганизмы, поставившие под угрозу существование всей планетарной экосистемы."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432d9"
+  },
+  "image": "",
+  "systemName": "Система Мактаре",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "Taetrus",
+  "descriptionEn": "Taetrus is a turian colony in the Mactare system. In 2185, Taetrus fell into crisis when a turian separatist group known as Facinus reprogrammed the FTL plotter of a starship and rammed the ship at near-FTL speeds into the heart of Vallum, the colony's capital city, killing tens of thousands of people. This terrorist attack prompted the Turian Hierarchy and Taetrian colonialist forces to invade Facinus' strongholds and systematically eliminate the separatists in a short, decisive conflict called the War on Taetrus. Aside from Vallum, other major cities on Taetrus include Iratiana, Spaedar, and Madra, located in the Diluvian Wildlands on the island continent of Eluria. The marsh-like Wildlands were the base of operations for Facinus' political arm prior to the War on Taetrus, and most turian citizens living there were sympathetic to the separatists' cause. One advantage that the separatists had in the War was that most cities and strategic locations under their control, such as the Spaedar Spaceport and Kasatum Fortress, had been fortified to military specifications during a civil war on Taetrus several decades earlier. After months of conflicts in safe camps, civilians of planet Taetrus are finally going home while Hierarchy forces has to clean the nightmare of the war. Their main task is to reconstruct and to reunite family members. During the Reaper invasion in 2186, Taetrus is one of the first worlds the Reapers attack following their conquest of Khar'shan and Earth. The Turian Hierarchy made two attempts to enter the Mactare system via mass relay to liberate Taetrus, but were unsuccessful. As the Reapers began to pour into the Trebia system and assault Palaven, they broadcasted images of their victory at Taetrus to the turian comm buoy network.",
+  "notesEn": [
+    {
+      "title": "Trivia",
+      "p": "*Captain Guard Vidinos heads a special operatives team that distinguished itself in the War on Taetrus, tracking down turian separatist leaders opposing the Hierarchy."
+    }
+  ],
+  "nameRu": "Таэтрус",
+  "descriptionRu": "Старинная колония турианцев, в 2185 году подвергшаяся чудовищному теракту: группа сепаратистов перепрограммировала корабль и направила его на столицу планеты Валлиум. В момент возникшего кризиса сепаратистская группировка Фасцинус подняла восстание по всей территории планеты, чтобы отделиться от Турианской Иерархии. Мятеж был кроваво подавлен, данные события получили название 'Война на Таэтрусе'. 28 сентября 2186 планета подверглась нападению Жнецов, которые впоследствии транслировали кадры сломанной стены Валлиума на территориях турианцев для деморализации. Таэтрус (англ. Taetrus) — турианская колония в системе Мактаре, известная произошедшим там инцидентом. В 2185 году Таэтрус впал в кризис. Возглавляемая «Фацинусом» группа сепаратистов перепрограммировала курсограф корабля, направив его в самое сердце столицы колонии — Валлума. Количество погибших исчислялось десятками тысяч. В ответ вооружённые силы Турианской Иерархии полностью истребили сепаратистов, вторгнувшись в крепости «Фацинуса». Этот эпизод был позднее назван Войной на Таэтрусе. Сепаратисты удерживали крупные города колонии Таэтрус: Спаэдар, расположенный в Дилуванских пустошах, и остров-континент Элуре. Большинство турианских граждан с пониманием отнеслись к сепаратистам и примкнули к ним. Одним из преимуществ сепаратистов в войне было то, что они заняли стратегические места, такие как космодром Спаэдар и крепость Касатум. Он был усилен военными укреплениями во времена гражданской войны на Таэтрусе несколькими десятилетиями ранее. ",
+  "notesRu": [
+    {
+      "title": "Mass Effect 3",
+      "p": "Во время вторжения Жнецов в 2186 году Таэтрус стал одним из первых атакованных миров после Кхар’шана и Земли. Турианская Иерархия предприняла несколько попыток освобождения Таэтруса, но все они оказались безуспешными. Когда Жнецы начали захват Требии, в том числе Палавена, они транслировали сломанную стену Валлума в сети турианцев."
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432da"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Типтри",
+  "descriptionRu": "Небольшая человеческая колония, родная планета Джеффа Моро. В 2186 году подверглась внезапному нападению Жнецов, в результате которого лишь части поселенцев удалось спастись."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432db"
+  },
+  "image": "https://static.wikia.nocookie.net/masseffect/images/a/a5/%D0%A2%D0%B8%D1%82%D0%B0%D0%BD.jpg/revision/latest?cb=20130625075638&path-prefix=ru",
+  "systemName": "Местное Скопление Солнце",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "false",
+    "satelite": "true",
+    "colony": "false",
+    "station": "true"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Титан (спутник)",
+  "descriptionRu": "Самый крупный спутник планеты Сатурн. На нём расположены базы для подготовки солдат Альянса в крайне экстремальных условиях. Титан — самый крупный спутник планеты Сатурн. Альянс систем расположил на Титане форт имени Чарльза Уфама для тренировки пребывания во враждебном окружении и штурма вражеских укреплённых точек. При разговоре с Эшли Уильямс выясняется, что она проходила курс тренировок на Титане.",
+  "notesRu": [
+    {
+      "title": "Примечательные места",
+      "p": "*Форт имени Чарльза Уфама"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432dc"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "false",
+    "satelite": "true",
+    "colony": "false",
+    "station": "true"
+  },
+  "codex": "",
+  "nameEn": "Torfan",
+  "descriptionEn": "Torfan is a small moon that served as base for criminals, mostly batarians, who built strongholds deep underground. In retaliation for the Skyllian Blitz, the Systems Alliance raided Torfan in 2178. Though the Alliance took heavy losses, the enemy was completely annihilated. After Torfan, the batarians began retreating from Citadel space.",
+  "notesEn": [
+    {
+      "title": "Mass Effect",
+      "p": "If Commander Shepard has the Ruthless background, the Commander's reputation was cemented at Torfan. Shepard pursued the batarians and wiped them out, even those who surrendered, at the cost of many lives from the Commander's own unit. This earned Shepard the epithet 'Butcher of Torfan'. Major Kyle, Shepard's commanding officer at Torfan, couldn't handle the loss of so many Marines and was eventually given an honorable discharge, later becoming the leader of a biotic commune. "
+    },
+    {
+      "title": "Mass Effect 2",
+      "p": "After the death of Commander Shepard in 2183, the Shepard Memorial Flame is placed on Torfan as a monument to the Commander. There are some attempts to extinguish the flame in protest of the Commander's questionable actions there, and following the Commander's return in 2185 and the rumors of their working for Cerberus, the frequency of these attempts increases."
+    }
+  ],
+  "nameRu": "Торфан (спутник)",
+  "descriptionRu": "Данный спутник являлся крупнейшей перевалочной базой для пиратов и преступников в Скиллианском Пределе. В ответ на нападение на колонию Элизиум Альянс нанёс по расположенным на спутнике пиратским базам сокрушительный удар, не потеряв ни одного корабля. Торфан (англ. Torfan) — небольшая луна, служившая перевалочным пунктом для преступников, основной частью которых были батарианцы. В ответ на Скиллианский блиц Альянс систем провёл атаку на Торфан в 2178 году. Несмотря на большие потери, враг был уничтожен. После этого батарианцы стали покидать пространство Цитадели.",
+  "notesRu": [
+    {
+      "title": "Mass Effect",
+      "p": "Если психологический портрет Шепард(а) — Безжалостный, то на Торфане он (она) руководил(а) одним из отрядов во время битвы. Штурмуя бункеры пиратов, в которых они засели, Шепард пожертвовал(а) большей частью своего отряда, чтобы выбить их оттуда. За эту чрезмерную жестокость, а также холодную расчётливость он (она) получил(а) прозвище Торфанский мясник и заслужил(а) мрачную репутацию даже среди солдат Альянса. Также на Торфане служил майор Кайл — командир Шепард(а) во время нападения на спутник. Он не смог перенести гибель многих людей и с благодарностью ушёл в отставку, став лидером для беженцев-биотиков. "
+    },
+    {
+      "title": "Mass Effect 2",
+      "p": "Так как многие люди винят Шепард(а) за гибель бойцов Альянса, некоторые участники протеста пытаются потушить вечный огонь Шепард(а), установленный на Торфане. После того как в 2185 году оказалось, что Шепард жив(а), попытки потушить вечный огонь участились. Об этом можно услышать в новостях на Цитадели. "
+    },
+    {
+      "title": "Интересные факты",
+      "p": "*Дробовик N7 «Крестоносец» — один из видов оружия, использовавшегося в войне на Торфане. Заслужил высокую оценку солдат Альянса, которые пользовались им. Судя по всему, в том конфликте применялись дробовики ранних модификаций этой модели, не приспособленные под термозаряды, технология которых не была известна кому-либо за исключением гетов до их атаки в 2183 году."
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432dd"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Трайденд",
+  "descriptionRu": "Турианская мятежная колония времён Войны за Объединение."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432de"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "false",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Турвесс",
+  "descriptionRu": "Родной мир птицеобразной расы рэлой. В 2185 году были установлены официальные дипломатические отношения с Советом, даже было открыто представительство. Тем не менее, после начала войны со Жнецами рэлои спешно покинули Цитадель и уничтожили всю свою космическую технику, в надежде избежать внимания древних машин. Турвесс (англ. Turvess) — планета-сад, родной мир расы рэлой. Спустя год после того как крейсер азари «Азедес» обнаружил орбитальный телескоп рэлой и вышел на контакт с этой расой, состоялся первый контакт между рэлой и галактическим сообществом. Дабы не принести на планету загрязнение и болезни, другим судам было запрещено высаживаться на планету, а численность приветственной делегации была строго ограничена. Известно о существовании на Турвессе, по меньшей мере, шести городов, в которых побывали представители Пространства Цитадели. К концу XXII столетия на орбите планеты находилось большое количество спутников и других орбитальных устройств, которые были полностью ликвидированы рэлой после начала вторжения Жнецов в 2186 году, в попытке расы избежать Жатвы за счёт маскировки уровня своего развития."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432df"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Урезиум",
+  "descriptionRu": "Из-за сейсмической активности, вскрывшей древнюю гекатомбу, в колонии были обнаружены массовые (более 400 тел) захоронения турианских солдат, погибших во времена Кроганских Восстаний."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432e0"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Урксон",
+  "descriptionRu": "На данной планете есть перерабатывающий нулевого элемента завод. В результате подозрительного взрыва на нём погибло шесть членов обслуживающего персонала."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432e1"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Учальда",
+  "descriptionRu": "Турианская колония, опустошенная во время кроганских восстаний. В честь погибших жителей колонии на Тессии гвардейцы Серрайса играли турианский гимн во время смены караула."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432e2"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Феррис-Филдс",
+  "descriptionRu": "Колония людей, расположенная в Системах Терминуса, в одной звёздной системе с планетой Нью-Кантон. Подверглась нападению Коллекционеров в 2185 году.",
+  "notesRu": [
+    {
+      "title": "Реакция команды",
+      "p": "Реакции среди команды показывает, насколько близка команда друг другу, особенно в свете небольшого количества команды на борту корабля. Зак Мэтьюз, который работает рядом с Ричардом Хедли (у последнего в Феррис-Филдс жил брат), немедленно признает важность колонии для его друга и выражает свои поддержку и сочувствие. На следующей палубе, Дженни Гольдштейн ищет подтверждения от Томаса Хоторна, что у Хедли был брат в колонии: оба были опечалены потерей колонии. Наконец, Кеннет Доннелли или Габриэлла Дэниелс выражают соболезнования из-за потери колонии."
+    },
+    {
+      "title": "Mass Effect 3",
+      "p": "При разговоре со Стивеном Кортезом в доке челноков, он упоминает что его муж, Роберт, базировался на планете, когда Коллекционеры похитили колонию в 2185 году."
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432e3"
+  },
+  "image": "https://static.wikia.nocookie.net/masseffect/images/2/29/%D0%A4%D0%B5%D0%BB_%D0%9F%D1%80%D0%B0%D0%B9%D0%BC._%D0%9A%D1%80%D0%B5%D0%B9%D1%81%D0%B5%D1%80.png/revision/latest/scale-to-width-down/1000?cb=20160316152754&path-prefix=ru",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "Fehl Prime is a human colony in the Terminus Systems. Fehl Prime is one of the top producers of pharmaceuticals for the Systems Alliance, making its defense a high priority for the Alliance military. A habitable planet with at least 3 moons, Fehl Prime's colony proper is established in an arid, desert-like region, but other areas feature extensive native flora that include massive, bio-luminescent, fungus-like growths. The planet is also the site of an intact and functional Prothean interstellar communication device believed to be at least 70,000 years old, although as of 2185 it is not being actively studied.",
+  "notesEn": [
+    {
+      "title": "Mass Effect: Paragon Lost",
+      "p": "Fehl Prime was besieged by a group of Blood Pack mercenaries led by the krogan Archuk in 2183. The Alliance dispatched several special forces squads to aid the ill-prepared colonists, but most were lost during the landing attempt. The only surviving unit, Delta Squad, eventually prevails against the Blood Pack forces, killing them all except for the krogan Brood, who was taken prisoner. In light of the attack, Delta Squad is reassigned to guard the colony. Over the next two years, Fehl Prime was rebuilt, and the Alliance bolstered the colony's defenses with a heavy anti-ship cannon and military-grade kinetic barriers. When a strange jamming signal is detected on the outskirts of the colony, Delta Squad investigated the signal's source, an alien bio-mechanical device, and destroyed it. Meanwhile, a Collector ship arrived at the colony, quickly incapacitating the colonists with Seeker Swarms and taking them aboard. In order to save the colonists, Delta Squad attempted to prevent the Collector ship from leaving by firing a low-power shot from the colony's defense cannon, but the shot was deflected by the ship's shields and the cannon was taken out by return fire. Delta Squad retreated to the colony's underground labs, where they discovered that some of the research being conducted there involved finding an antidote to the Seeker Swarms' paralyzing agent. With the help of the captive Brood, they decided to mount a counterattack in the hopes of freeing the colonists and treating them with the antidote. As it departed the planet, the Collector ship demolished the remains of the colony with its main proton cannon. Delta Squad boarded the ship using Brood's shuttle, and while they succeeded in disabling the ship, the colonists were lost; James Vega, acting leader of the squad, chose to rescue the asari Treeya, who possessed vital intel on the Collectors, rather than retrieve the colonists from the crashing ship. The Alliance later erected a monument on Fehl Prime in memory of the colonists who perished in the attack. "
+    },
+    {
+      "title": "Mass Effect 3",
+      "p": "During the Collector attacks of 2185, James Vega and his squad were stationed on Fehl Prime. When the Collectors struck the colony, James was forced to choose between defending the colonists and retrieving intel about the Collectors that could potentially be used to destroy them. James goes for the intel while his squad stays behind, resulting in their deaths and the abduction of the rest of the colony. The Alliance later commends James for his actions, even though Commander Shepard ultimately ends the Collector threat and renders James' intel unnecessary."
+    }
+  ],
+  "nameRu": "Фел Прайм",
+  "descriptionRu": "Фел Прайм (англ. Fehl Prime) — засушливая планета, на которой разместилась человеческая колония в Системах Терминуса, являющаяся одним из главных производителей фармацевтических препаратов для Альянса систем. Планета земного типа и человеческая колония в системах Терминуса, являющаяся одним из крупнейших производителей фармакологической продукции. Из-за постоянной угрозы нападения со стороны пиратов или наёмников, Альянс Систем стал строить на планете мощный оборонный комплекс. В 2185 году подверглась опустошительному нападению со стороны Коллекционеров. Хотя защищавший колонию отряд 'Дельта' смог уничтожить крейсер Коллекционеров, из целой колоний выжили только трое — Джеймс Вега, Милк и Трия Нувани. Планета имеет по крайней мере три спутника и пригодна для жизни, хотя единственная известная колония на Фел Прайм располагается в пустынной местности, фактически лишённой растительности. Судя по всему, наиболее впечатляющие формы жизни Фел Прайм селятся в пещерах под поверхностью планеты, где можно найти массивные биолюминесцентные грибы. На планете встречаются протеанские развалины, и даже имеется старое, но ещё работающее межзвёздное коммуникационное устройство, чей возраст, как полагают, составляет по крайней мере 70 000 лет, хотя с 2185 года это устройство активно не изучается. В связи с крайней важностью медицинского снабжения защита Фел Прайм является приоритетной задачей для Альянса систем. ",
+  "notesRu": [
+    {
+      "title": "Mass Effect: Paragon Lost",
+      "p": "В 2183 году Фел Прайм был осаждён группой наёмников «Кровавой стаи» во главе с кроганом Арчуком. Для защиты колонии Альянс послал несколько отрядов элитного спецназа, но большинство солдат погибло во время попытки высадиться между врагом и колонией. Единственный выживший отряд, «Дельта», в конечном счёте остался один на один против сил «Кровавой стаи», и лишь благодаря взявшему командование лейтенанту Джеймсу Веге колония была спасена, а силы врага оказались отброшены, после чего «Дельте» было поручено взять на себя охрану Фел Прайм, чем отряд занимался следующие два года. Постепенно колония была восстановлена, и Альянс повысил её обороноспособность, предоставив тяжёлую пушку для поражения кораблей, а также крепчайшие кинетические щиты военного уровня. Когда на окраине колонии был замечен странный источник помех, отряд «Дельта» был отправлен, чтобы исследовать его, но в результате, сочтя объект помех опасным, они его уничтожили. Впрочем, это не спасло Фел Прайм: крейсер Коллекционеров добрался до колонии, после чего выпустил рои ищеек, парализовавших колонистов, после чего Коллекционеры смогли без труда забрать беспомощных людей на борт. Чтобы не дать вражескому крейсеру улететь, отряд использовал оборонительную пушку Фел Прайм, делая выстрел в половину мощности, дабы не нанести вред колонистам, что уже отправлены на борт; впрочем, это не сработало, потому как выстрел был отклонён щитами крейсера, после чего сам отряд попал под огонь. Чтобы спастись, морпехи отступили в подземные лаборатории колонии, где обнаружили, что часть исследований, проводимых там, была ориентирована на нахождение противоядия от паралича ищеек. Благодаря тому, что один из членов отряда был уже парализован, лекарство удалось успешно протестировать. В конце концов с помощью одного из кроганов «Кровавой стаи» «Дельте» удаётся получить в распоряжение челнок и попасть на борт улетающего крейсера. К сожалению, в процессе боя двигатель корабля отключился, после чего крейсер начал падать обратно на колонию. Времени было мало, и, выбирая между спасением колонистов и получением данных о Коллекционерах, Вега принял решение спасти азари Трию, обладающую разведданными. В результате все находившиеся на борту жители Фел Прайм погибли при взрыве крейсера. Позже Альянс установит на месте погибшей колонии памятник жертвам инцидента на Фел Прайм. "
+    },
+    {
+      "title": "Mass Effect 3",
+      "p": "Уже оказавшись на борту «Нормандии», Джеймс Вега иногда вспоминает свою службу на Фел Прайм, рассказывая, между чем и чем ему пришлось выбирать. Также, несмотря на то, что Альянс оценил его действия, как выяснилось, к моменту гибели Фел Прайм в разведданных уже не было нужды: по иронии судьбы, капитан Шепард, на которого(ую) равнялся Джеймс, к тому времени уже прошёл(ла) через ретранслятор «Омега-4» и атаковал(а) базу Коллекционеров, устранив саму угрозу со стороны этой расы."
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432e4"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Фракия",
+  "descriptionRu": "Турианская мятежная колония времён Войны за Объединение."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432e5"
+  },
+  "image": "https://static.wikia.nocookie.net/masseffect/images/6/65/Mass_Effect_Evolution_Shanxi.png/revision/latest?cb=20110510192547",
+  "systemName": "Система Тета Шаньси",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "Shanxi",
+  "descriptionEn": "Shanxi is a Systems Alliance colony located near the Shanxi-Theta mass relay. Besides being the jumping off point for local traffic, Shanxi is notable for its involvement in the First Contact War of 2157. It was the site of several battles between the Systems Alliance and the Turian Hierarchy. Prior to 2186, Shanxi was the only human colony to have ever been occupied by an alien race. ",
+  "notesEn": [
+    {
+      "title": "The Occupation of Shanxi",
+      "p": "After an expedition sent through the Shanxi-Theta mass relay was wiped out by a turian patrol fleet, a single ship survived and made it back to Shanxi itself. A retaliatory force was sent out by the commander at the colony, and the reinforcements destroyed the turian forces. Events escalated quickly; the turians sent more ships through the relay and captured Shanxi, but not before a message drone was sent out by the defenders, alerting the Alliance forces at Arcturus Station. The Alliance defenders at Shanxi, besieged by the orbiting turians, were then forced to fight a guerrilla campaign on the ground. The turians, however, slowly squeezed the defenders into submission. Dropping orbiting debris, the turians leveled entire city blocks just to destroy one marine fire team whenever they attempted to procure food and supplies. Eventually, with the troops starving and civilians dying every day, the garrison surrendered and the turians occupied the colony. However, the turians then faced logistical problems of their own as their unique biology required them to import all of their food. Nevertheless, the turian forces believed they were secure, and that the handful of ships they had defeated represented the bulk of human naval forces. They were unprepared when the Second Fleet under Admiral Kastanie Drescher launched a powerful counteroffensive and evicted them from Shanxi. In response, the turians began mobilizing for full-scale war. However, after seeing the turians forced off of Shanxi, the Citadel Council realised just how well-trained, equipped and adaptable the Alliance forces were, and understood that a war between the turians and the Alliance could be devastating to the galaxy. They intervened and brokered a truce. "
+    },
+    {
+      "title": "Mass Effect: Evolution",
+      "p": "In the midst of the turian siege of Shanxi, a turian research vessel carrying a valuable artifact crash-landed on the planet. The Turian Hierarchy dispatched General Desolas to locate the missing vessel, the artifact, and the researchers. During the search, Desolas was captured by the human mercenaries Jack Harper, Ben Hislop, and Eva Coré, who then tracked down Desolas's squad, captured them, and stumbled upon the cave where the turian researchers had hidden the artifact. The tables were turned on the mercs when the artifact incapacitated Jack and Ben, distracting Eva long enough for the turians to free themselves. Desolas took the humans prisoner and notified the Hierarchy that the artifact had been located. Their mission complete, the turians departed the planet with the artifact and their prisoners, who were later freed at a post-war prisoner exchange on Arcturus Station."
+    },
+    {
+      "title": "Legacy",
+      "p": "Shanxi is sometimes used as an example by xenophobic political groups like Terra Firma to protest against humanity's growing interactions with alien races. In response to arguments that the turian actions at the Shanxi-Theta relay were all a big misunderstanding, equivalent to snatching a gun away from a child, Terra Firma leader Charles Saracino responds that he would take the gun away from the child, 'but I wouldn't shoot them dead.' The First Contact War and the Battle of Shanxi created great mistrust between humans and turians. However, Shanxi also proved humanity's tenacity and military strength. It impressed the turians and the galactic community as a whole, because apart from the krogan, the turians had previously found no equals in war. The battle created a lot of interest in humans on the Citadel. "
+    },
+    {
+      "title": "Mass Effect",
+      "p": "When talking to Commander Shepard about having a drink to celebrate Armistice Day, Ashley Williams confesses that her grandfather, General Williams, was the commander at Shanxi when the colony surrendered to the turians. No charges were ever brought, but the incident destroyed his career. He eventually left the military, and ended up working construction out in the colonies. There have been some attempts by Alliance historians to exonerate General Williams 'in some official way,' but nothing has yet come of these efforts. Shanxi was also chosen to host a Terra Firma political rally in 2173, likely intended to underline the colony's significance to the pro-human contingent. Party leadership candidate Claude Menneau was expected to attend, but mysteriously disappeared en route. "
+    },
+    {
+      "title": "Mass Effect 2",
+      "p": "Shanxi has a regular shuttle route to Nos Astra on Illium. Due to security advisories, after several human colonies had been attacked, the route is delayed (canceled) until further notice."
+    },
+    {
+      "title": "Mass Effect 3",
+      "p": "During the Reaper War, the mass relay traffic report at the Broker Terminal lists the information from the Shanxi-Theta relay as 'unavailable.'"
+    }
+  ],
+  "nameRu": "Шаньси",
+  "descriptionRu": "Колония людей, в 2157 году подвергшаяся атаке турианцев во время войны Первого контакта. Несмотря на героическое сопротивление, колонию пришлось оставить. На поверхности планеты было найдено действующее устройство Жнецов. Шаньси (англ. Shanxi) — колония Альянса систем, расположенная вблизи ретранслятора Тета Шаньси. Это название может быть ссылкой к провинциям Китая: Шэньси́ (陕西) или Шаньси (山西). Шаньси участвовала в войне Первого контакта в 2157 году. На ней прошли несколько сражений между Альянсом систем и Турианской Иерархией. До вторжения Жнецов Шаньси была единственной колонией людей, когда-либо занятой инопланетянами. ",
+  "notesRu": [
+    {
+      "title": "",
+      "p": "После экспедиции за ретранслятор Тета Шаньси патруль турианцев уничтожил все корабли, кроме одного, который смог вернуться в колонию и позвать подкрепление, которое разгромило противника. События быстро переросли в настоящую войну. Турианцы прислали новые корабли и захватили колонию, но люди успели послать беспилотник с сигналом бедствия к станции 'Арктур'. Защитники Шаньси были оккупированы турианцами и сражались в партизанских отрядах. Инопланетяне стали изматывать людей. Они бомбардировали планету космическим мусором, взрывали целые кварталы, уничтожали запасы провизии. В конце концов, голодающий и истощённый гарнизон сдался и турианцы захватили колонию. Однако, турианцы сами столкнулись с проблемой питания, ведь еда людей не подходила им из-за биологических особенностей. Тем не менее, они посчитали, что в безопасности и не ожидали от новой расы чего-то большего. Турианцы оказались неподготовленными, когда Второй флот под командованием адмирала Кастани Дрешера начал мощное контрнаступление и выбил противника с Шаньси. В ответ турианцы стали готовиться к полномасштабной войне. Однако, когда Совет Цитадели увидел, насколько хорошо Альянс систем подготовлен к войне и понял, что война между людьми и турианцами повлечет огромные разрушения для всей Галактики. Поэтому они вмешались и добились перемирия. "
+    },
+    {
+      "title": "Mass Effect: Эволюция",
+      "p": "В разгар осады Шаньси, турианское исследовательское судно, перевозившее ценный артефакт, совершило аварийную посадку на планете. Турианская Иерархия отправляет Десоласа Артериуса на поиски пропавшего судна и артефакта с исследователями. В итоге Десоласа захватывает группа людей, которые выследили отряд турианцев и узнали о пещере, где хранился артефакт. Контакт с ним странно повлиял на Джека Харпера и Бена Хислопа, а Ева Кор не смогла сдержать противника и людей захватили. Десолас уведомил Иерархию о том, что артефакт нашёлся и покинул планету. Позже пленники были освобождены на станции 'Арктур', после окончания войны."
+    },
+    {
+      "title": "Последствия",
+      "p": "Шаньси используют многие ксенофобские политические группы, такие как 'Терра Фирма', которые против иноземного влияния на людей. Война первого контакта породила недоверие между людьми и турианцами. Шаньси также показало человеческую мощь и стремление к победе. Это произвело впечатление на всё галактическое сообщество, ведь до кроганов никто не мог противостоять турианской армии. "
+    },
+    {
+      "title": "Mass Effect",
+      "p": "В одном из разговоров с Эшли Уильямс можно узнать, что её дед, генерал Уильямс, командовал войсками людей на Шаньси и сдался турианцам. Никаких обвинений не было, но этот инцидент разрушил его карьеру. Он ушел из армии и работал строителем в колонии. Было несколько попыток со стороны Альянса вернуть генерала, но они не принесли результатов."
+    },
+    {
+      "title": "Mass Effect 2",
+      "p": "Между Шаньси и Нос Астрой, городом на Иллиуме, проходит регулярный маршрут. После исчезновения нескольких человеческих колоний, маршрут приостановили до дальнейших распоряжений. "
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432e6"
+  },
+  "image": "",
+  "systemName": "Система Вейносс",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "false",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Шелба",
+  "descriptionRu": "Расположенная в соседней с системой Сарабарик необитаемая планета, малопривлекательная для эксплуатации (разреженная атмосфера, низкие температуры, скудные ресурсы, гравитация 0,92 G). В 2183 году планета была выбрана для подставной операции 'Цербера', целью которой был захват кварианского корабля 'Синиад' для безопасного проникновения в Мигрирующий Флот."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432e7"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Эдессан",
+  "descriptionRu": "Турианская мятежная колония времён Войны за Объединение."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432e8"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "false",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Экрам",
+  "descriptionRu": "Засушливая планета, на которой обитают кирики — вид биотически активных членистоногих, что является редкостью из-за примитивного устройства нервной системы. "
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432e9"
+  },
+  "image": "",
+  "systemName": "Система Яфен",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "false",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Энтийон",
+  "descriptionRu": "На планету был совершён крупный рейд в 2174 году. В результате этой успешной операции Альянса Систем Кай Лен был представлен к награде."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432ea"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Энаэль",
+  "descriptionRu": "Планета имеет залежи паладия. Колония стала известна после обнаружения шахтёрами огромного склада вооружения, оставшегося после стычек батарианцев и сил Цитадели в 2115 году н.э."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432eb"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Эпирус",
+  "descriptionRu": "Турианская мятежная колония времён Войны за Объединение."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432ec"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Эфус",
+  "descriptionRu": "Турианская колония, на которой расположены верфи и судоремонтные доки. Во время войны со Жнецами попала в зону пристального внимания со стороны 'Цербера'. Также являлась потенциальным объектом для терракта из-за коллаборационизма со стороны посла волусов Дина Корлака."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432ed"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Яэто",
+  "descriptionRu": "Одна из первых колоний саларианцев, которые они основали за пределами родной системы. Является внутренней территорией Союза. "
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432ee"
+  },
+  "image": "",
+  "systemName": "",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Яндоа",
+  "descriptionRu": "Колония людей, известная тем, что в 2171 году над её поверхностью взорвался транспортный корабль компании Элдфелл-Эшланд, гружёный нулевым элементом. В результате токсической аварии (одной из крупнейших в истории человечества) воздействию нулевого элемента подверглись тысячи детей, многие из которых стали проявлять способности к биотике. Джиллиан Грейсон родом с этой планеты. Яндоа — колония Альянса, известная из-за крупного несчастного случая на производстве в 2170 году. Эта авария была настолько разрушительной, что некоторые даже называли её самым кошмарным токсическим выбросом в истории человечества. Полностью загруженное транспортное судно, принадлежавшее корпорации «Эльдфелл-Эшленд», взорвалось в небе над колонией Яндоа. В атмосфере планеты растеклось смертоносное облако нулевого элемента, которое поразило несколько тысяч ещё не рождённых младенцев. И хотя в большинстве своём пострадавшие исцелились и не показывали каких-либо значительных отклонений от нормы, сотни детей демонстрировали тяжёлые симптомы, варьировавшиеся от рака до уродств. Было и много выкидышей. Но и в этой трагедии нашлось нечто хорошее: 37 % пострадавших младенцев не только родились здоровыми, но и обладали значительным биотическим потенциалом. И все они сейчас обучаются в Академии Гриссома. Планета была также местом рождения Джиллиан Грейсон.",
+  "notesRu": [
+    {
+      "title": "Происшествие",
+      "p": "«Несчастный случай на производстве» на Яндоа был организован «Цербером» и выполнен Полом Грейсоном. Позже Призрак отдал Джиллиан Полу; судьба её родителей, живших на Яндоа, до сих пор неизвестна."
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432ef"
+  },
+  "image": "",
+  "systemName": "Скопление Нубийский простор",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "false",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "433 Спидау",
+  "descriptionRu": "Планета, полностью уничтоженная ядерным оружием около 1000 лет назад. Известно около 90 остатков городов на поверхности планеты. Саларианские исследователи также нашли неповреждённый бункер с оружием, которое, тем не менее, не попало в Саларианский Институт Экзоархеологических Исследований, финансирующий экспедицию. "
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432f0"
+  },
+  "image": "",
+  "systemName": "Система SM2183 'Руа'",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "false",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "DC1938",
+  "descriptionRu": "Маленькая планета-сад, взорвавшаяся после феномена, именуемого 'синтез ядра'. Остался всего один выживший ребёнок, запущенный в спасательной капсуле, которого подобрал крейсер МСВ 'Кент'."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432f1"
+  },
+  "image": "",
+  "systemName": "Система Антилин",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "неизвестно",
+  "descriptionRu": "В этой саларианской системе был обнаружен корабль, населённый виртуальной инопланетной расой."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432f2"
+  },
+  "image": "",
+  "systemName": "Скопление Вояджера",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Неизвестная планета",
+  "descriptionRu": "На данной планете расположены верфи и сопутствующие производства, позволившие 'Церберу' построить Нормандию SR-2."
+},
+{
+  "_id": {
+    "$oid": "6548db28c383a41ab1b432f3"
+  },
+  "image": "",
+  "systemName": "Туманность Полумесяц",
+  "links": "",
+  "episode": "",
+  "type": {
+    "planet": "true",
+    "satelite": "false",
+    "colony": "true",
+    "station": "false"
+  },
+  "codex": "",
+  "nameEn": "",
+  "descriptionEn": "",
+  "nameRu": "Неизвестная планета",
+  "descriptionRu": "На орбите этой небольшой шахтёрской планеты была расположена станция 'Цербера', используемая Призраком (во время событий книги 'Обман') в качестве временного штаба, пока на станции Кронос проходила реконструкция."
+}]

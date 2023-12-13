@@ -1,0 +1,117 @@
+[{
+  "photo": "",
+  "ru": {
+    "name": "",
+    "lastName": "",
+    "race": "",
+    "sex": "",
+    "birth": {
+      "date": "",
+      "place": ""
+      },
+    "death": {
+      "date": "",
+      "place": ""
+      },
+    "homePlanet": "",
+    "appearance": "",
+    "nativeLanguage": "",
+    "organisation": "",
+    "kindOfActivity": "",
+    "rank": "",
+    "biotic": "",
+    "voiceActor": {
+      "russianLanguage": "",
+      "englishLanguage": ""
+      }
+  },
+  "en": {
+    "name": "",
+    "lastName": "",
+    "race": "",
+    "sex": "",
+    "birth": {
+      "date": "",
+      "place": ""
+      },
+    "death": {
+      "date": "",
+      "place": ""
+      },
+    "homePlanet": "",
+    "appearance": "",
+    "nativeLanguage": "",
+    "organisation": "",
+    "kindOfActivity": "",
+    "rank": "",
+    "biotic": "",
+    "voiceActor": {
+      "russianLanguage": "",
+      "englishLanguage": ""
+      }},
+  "contacts": {
+    "email": "@meapi.gl",
+    "password": "Qwerty1!",
+    "phone": "03334447788"
+    }
+},
+{
+  "photo": "https://static.wikia.nocookie.net/masseffect/images/a/a0/%D0%9B%D0%B8%D0%B0%D1%80%D0%B0%D0%92%D0%B8%D0%BA%D0%B81.png/revision/latest?cb=20210601191345&path-prefix=ru",
+  "ru": {
+    "name": "Лиара",
+    "lastName": "Т’Сони",
+    "race": "Азари",
+    "sex": "Женский",
+    "birth": {
+      "date": "2077",
+      "place": "Тессия"
+      },
+    "death": {
+      "date": "Возможна в 2186 году",
+      "place": "битва за Землю"
+      },
+    "homePlanet": "Тессия",
+    "appearance": "Mass Effect, «Mass Effect: Искупление», Mass Effect: Paragon Lost, Mass Effect 2, «Mass Effect: Родина», Mass Effect 3, Mass Effect: Andromeda",
+    "nativeLanguage": "Азари",
+    "organisation": "неизвестно",
+    "kindOfActivity": "Ксеноархеолог, Серый Посредник, Член отряда Шепарда",
+    "rank": "неизвестно",
+    "biotic": "есть",
+    "voiceActor": {
+      "russianLanguage": "Марина Лисовец",
+      "englishLanguage": "Али Хиллис, Джэми Марчини (Paragon Lost)"
+      },
+    "about": "Родилась в 2077 году на Тессии. Родителями Лиары были пара матриархов-азари: Бенезия и Этита, так что Лиара является одной из немногих для своего поколения чистокровных азари. Этита не принимала деятельного участия в судьбе Лиары, поэтому Бенезия, мать девочки, воспитывала её в одиночку и никогда не рассказывала Лиаре о своей партнёрше. С раннего детства Лиара находилась в тени своей знаменитой матери — уважаемого религиозного лидера и наставника азари, всегда окруженного множеством последователей. Все считали, что дочь должна пойти по стопам авторитетной матери, но сама Лиара имела на этот счёт другое мнение. Лиара с детства проявляла интерес к исследованиям. Однажды она полезла в старые развалины и еле выбралась оттуда. Когда мать узнала об этом, то прочитала дочери длинную нотацию, а на следующий день купила Лиаре её первую книгу по истории. Примерно в 50 лет окончила Серрайский университет на Тессии, получив докторскую степень по археологии. Следующие ~50 лет Лиара путешествовала по Галактике, исследуя руины протеан; небольшой рассказ о её исследованиях можно услышать сразу после её спасения с планеты Терум в Mass Effect. Самостоятельно сформулировала теорию о циклах, но ввиду молодости и чистокровности более зрелые и влиятельные азари не восприняли её всерьёз. Также следует добавить, что в молодости Лиара, в отличие от большинства своих ровесниц, вела спокойную размеренную, посвящённую исследовательской работе жизнь, находясь, в основном, в одиночестве. Эти факты оказали заметное и значительное влияние на её привычки, характер и личность в целом. "
+  },
+  "en": {
+    "name": "Liara",
+    "lastName": "T'Soni",
+    "race": "Asari",
+    "sex": "Feminine",
+    "birth": {
+      "date": "2077",
+      "place": "Thessia"
+      },
+    "death": {
+      "date": "posible 2186",
+      "place": "battle for Earth"
+      },
+    "homePlanet": "Thessia",
+    "appearance": "Mass Effect, Mass Effect: Redemption, Mass Effect: Paragon Lost, Mass Effect 2, Mass Effect: Homeworlds, Mass Effect 3, Mass Effect: Andromeda",
+    "nativeLanguage": "Asari",
+    "organisation": "unknown",
+    "kindOfActivity": "Asari Scientist",
+    "rank": "unknown",
+    "biotic": "",
+    "voiceActor": {
+      "russianLanguage": "Marina Lisovec",
+      "englishLanguage": "Ali Hillis, Jamie Marchi (Mass Effect: Paragon Lost)"
+      },
+    "about": "Dr. Liara T'Soni is an asari researcher who has spent the past fifty years of her life studying Prothean technology and culture, specialising in the Prothean extinction. She was born on Thessia in 2077, making her 'only' 106—barely an adult in asari terms. She already has a great deal of insight into the Protheans and is a highly trained user of biotics. She is a potential romantic interest for either a male or female Shepard."},
+  "contacts": {
+    "email": "@meapi.gl",
+    "password": "Qwerty1!",
+    "phone": "03334447788"
+    }
+}
+]
