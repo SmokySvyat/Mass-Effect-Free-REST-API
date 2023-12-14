@@ -1,14 +1,10 @@
 const router = require('express').Router();
 const {
-  getAll, getPlanets, getRaces, getPlanetById, getRaceById,
+  getAll, getFromCollection, getById,
 } = require('../controllers/me');
 
 router.get('/api/all', getAll);
-router.get('/api/planets/all', getPlanets);
-router.get('/api/planets/:page-:range', getPlanets);
-router.get('/api/planets/:id', getPlanetById);
-router.get('/api/races/all', getRaces);
-router.get('/api/races/:page-:range', getRaces);
-router.get('/api/races/:id', getRaceById);
+router.get('/api/:collection/object/:id', getById);
+router.get('/api/:collection/page/:page-:range', getFromCollection);
 
 module.exports = router;

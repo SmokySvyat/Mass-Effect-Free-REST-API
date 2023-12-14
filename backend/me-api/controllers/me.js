@@ -1,6 +1,7 @@
 const { STATUS_OK, ERROR_NOT_FOUND } = require('../utils/constants');
-const Planets = require('../models/planets');
-const Races = require('../models/races');
+const { planetModel } = require('../models/planets');
+const { raceModel } = require('../models/races');
+const { characterModel } = require('../models/characters');
 
 const pagination = (arr, reqPage, reqRange) => {
   const page = Number(reqPage);
@@ -25,53 +26,91 @@ const pagination = (arr, reqPage, reqRange) => {
   );
 };
 
-const sendResponse = (responseData, req) => {
-  if (req.params.page !== undefined) {
+const sendCollection = (responseData, req) => {
+  if (req.params.page !== '0') {
     return pagination(responseData, req.params.page, req.params.range);
   }
   return responseData;
 };
 
-const getAll = (res, req, next) => {};
-
-const getPlanets = (req, res, next) => {
-  Planets.find()
-    .then((planet) => {
+const getAll = (req, res, next) => {
+  const collectionsAll = [];
+  planetModel.find()
+    .then((planets) => { collectionsAll.push(...planets); });
+  raceModel.find()
+    .then((races) => { collectionsAll.push(...races); });
+  characterModel.find()
+    .then((characters) => {
+      collectionsAll.push(...characters);
       res
         .status(STATUS_OK)
-        .send(sendResponse(planet, req));
+        .send(collectionsAll);
     })
     .catch(next);
 };
 
-const getRaces = (req, res, next) => {
-  Races.find()
-    .then((races) => {
-      res
-        .status(STATUS_OK)
-        .send(sendResponse(races, req));
-    })
-    .catch(next);
+const getFromCollection = (req, res, next) => {
+  // console.log(req.params);
+  const { collection } = req.params;
+  switch (collection) {
+    case 'planets':
+      planetModel.find()
+        .then((planet) => {
+          res
+            .status(STATUS_OK)
+            .send(sendCollection(planet, req));
+        })
+        .catch(next);
+      break;
+    case 'races':
+      raceModel.find()
+        .then((races) => {
+          res
+            .status(STATUS_OK)
+            .send(sendCollection(races, req));
+        })
+        .catch(next);
+      break;
+    case 'characters':
+      characterModel.find()
+        .then((characters) => {
+          // console.log(characters);
+          res
+            .status(STATUS_OK)
+            .send(sendCollection(characters, req));
+        })
+        .catch(next);
+      break;
+    default:
+      break;
+  }
 };
 
-const getPlanetById = (req, res, next) => {
-  const { id } = req.params;
-  Planets.findById(id)
-    .then((planet) => res.send(planet))
-    .catch(next);
-};
-
-const getRaceById = (req, res, next) => {
-  const { id } = req.params;
-  Races.findById(id)
-    .then((race) => res.send(race))
-    .catch(next);
+const getById = (req, res, next) => {
+  const { collection, id } = req.params;
+  switch (collection) {
+    case 'planets':
+      planetModel.findById(id)
+        .then((planet) => res.status(STATUS_OK).send(planet))
+        .catch(next);
+      break;
+    case 'races':
+      raceModel.findById(id)
+        .then((race) => res.status(STATUS_OK).send(race))
+        .catch(next);
+      break;
+    case 'character':
+      characterModel.findById(id)
+        .then((character) => res.status(STATUS_OK).send(character))
+        .catch(next);
+      break;
+    default:
+      break;
+  }
 };
 
 module.exports = {
   getAll,
-  getPlanets,
-  getRaces,
-  getPlanetById,
-  getRaceById,
+  getFromCollection,
+  getById,
 };

@@ -51,5 +51,8 @@ const planetSchema = new mongoose.Schema({
   },
 }, { versionKey: false });
 
-const Planet = mongoose.model('planets', planetSchema);
-module.exports = Planet;
+const planetModel = mongoose.model('Planets', planetSchema);
+module.exports = {
+  planetModel,
+  planetSchema,
+};

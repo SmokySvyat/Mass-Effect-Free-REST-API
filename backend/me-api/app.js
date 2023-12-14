@@ -18,7 +18,7 @@ app.use(cors());
 app.use(helmet());
 app.use(limiter);
 mongoose.connect(MONGO)
-  .then(console.log('Connected to database'));
+  .then(() => console.log('Connected to database'));
 
 app.use(bodyParser.json());
 app.use(cookieParser());
