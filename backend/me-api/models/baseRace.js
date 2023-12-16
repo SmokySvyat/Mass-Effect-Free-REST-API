@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
+const { articleSchema } = require('./article');
 
-const raceSchema = new mongoose.Schema({
+const baseRaceSchema = new mongoose.Schema({
   name: {
     type: String,
     required: true,
@@ -37,11 +38,16 @@ const raceSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  history: [{ type: mongoose.Schema.ObjectId, ref: 'Article', required: false }],
-  biology: [{ type: mongoose.Schema.ObjectId, ref: 'Article', required: false }],
-  culture: [{ type: mongoose.Schema.ObjectId, ref: 'Article', required: false }],
-  government: [{ type: mongoose.Schema.ObjectId, ref: 'Article', required: false }],
-  economy: [{ type: mongoose.Schema.ObjectId, ref: 'Article', required: false }],
-});
+  history: [articleSchema],
+  biology: [articleSchema],
+  culture: [articleSchema],
+  government: [articleSchema],
+  economy: [articleSchema],
+}, { versionKey: false });
 
-module.exports = mongoose.model('inRace', raceSchema);
+const baseRaceModel = mongoose.model('baseRace', baseRaceSchema);
+
+module.exports = {
+  baseRaceModel,
+  baseRaceSchema,
+};

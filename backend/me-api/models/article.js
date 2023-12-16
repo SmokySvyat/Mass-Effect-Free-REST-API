@@ -9,6 +9,10 @@ const articleSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-});
+}, { versionKey: false });
 
-module.exports = mongoose.model('Article', articleSchema);
+const articleModel = mongoose.model('Article', articleSchema);
+module.exports = {
+  articleModel,
+  articleSchema,
+};

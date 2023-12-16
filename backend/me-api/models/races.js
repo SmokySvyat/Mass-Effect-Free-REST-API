@@ -1,9 +1,14 @@
 const mongoose = require('mongoose');
+const { baseRaceSchema } = require('./baseRace');
 
-const resRacesSchema = new mongoose.Schema({
-  galery: [{}],
-  ru: {},
-  en: {},
-});
+const raceSchema = new mongoose.Schema({
+  galery: [String],
+  ru: baseRaceSchema,
+  en: baseRaceSchema,
+}, { versionKey: false });
 
-module.exports = mongoose.model('Race', resRacesSchema);
+const raceModel = mongoose.model('Race', raceSchema);
+module.exports = {
+  raceModel,
+  raceSchema,
+};

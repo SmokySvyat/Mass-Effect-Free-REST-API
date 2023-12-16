@@ -1,8 +1,6 @@
-[{
-  "galery": [{
-    "imgUrl": ""
-    }
-    ],
+[
+{
+  "galery": [""],
   "ru": {
     "name": "",
     "appearance": "",
@@ -45,10 +43,7 @@
   }
 },
 {
-  "galery": [{
-    "imgUrl": "https://static.wikia.nocookie.net/masseffect/images/a/a0/%D0%9B%D0%B8%D0%B0%D1%80%D0%B0%D0%92%D0%B8%D0%BA%D0%B81.png/revision/latest?cb=20210601191345&path-prefix=ru"
-    }
-    ],
+  "galery": ["https://static.wikia.nocookie.net/masseffect/images/a/a0/%D0%9B%D0%B8%D0%B0%D1%80%D0%B0%D0%92%D0%B8%D0%BA%D0%B81.png/revision/latest?cb=20210601191345&path-prefix=ru", "https://static.wikia.nocookie.net/masseffect/images/a/a0/%D0%9B%D0%B8%D0%B0%D1%80%D0%B0%D0%92%D0%B8%D0%BA%D0%B81.png/revision/latest?cb=20210601191345&path-prefix=ru"],
   "ru": {
     "name": "Азари",
     "appearance": "Mass Effect,Mass Effect 2,Mass Effect 3,Mass Effect: Andromeda,Mass Effect: Искупление,Mass Effect: Возмездие,Mass Effect: Вторжение,Mass Effect Galaxy,Mass Effect: Paragon Lost,Mass Effect: Нашествие,Mass Effect: Родина,Mass Effect: Обман,Mass Effect: Бласто: Вечность навсегда",
