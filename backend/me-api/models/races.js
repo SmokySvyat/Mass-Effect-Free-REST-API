@@ -5,7 +5,7 @@ const raceSchema = new mongoose.Schema({
   galery: [String],
   ru: baseRaceSchema,
   en: baseRaceSchema,
-});
+}, { versionKey: false });
 
 const raceModel = mongoose.model('Race', raceSchema);
 module.exports = {

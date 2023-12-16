@@ -1,7 +1,17 @@
-const { STATUS_OK, ERROR_NOT_FOUND } = require('../utils/constants');
+const bcrypt = require('bcrypt');
+const { ValidationError, CastError } = require('mongoose').Error;
+const {
+  CREATED, STATUS_OK, ERROR_NOT_FOUND, ERROR_CODE_UNIQUE, SALT_ROUNDS,
+} = require('../utils/constants');
+
+const NotUnique = require('../utils/errors/NotUnique');
+const BadRequest = require('../utils/errors/BadRequest');
+const NotFound = require('../utils/errors/NotFound');
+
 const { planetModel } = require('../models/planets');
 const { raceModel } = require('../models/races');
 const { characterModel } = require('../models/characters');
+const { contactModel } = require('../models/contacts');
 
 const pagination = (arr, reqPage, reqRange) => {
   const page = Number(reqPage);
@@ -33,13 +43,13 @@ const sendCollection = (responseData, req) => {
   return responseData;
 };
 
-const getAll = (req, res, next) => {
+const getAll = async (req, res, next) => {
   const collectionsAll = [];
-  planetModel.find()
+  await planetModel.find()
     .then((planets) => { collectionsAll.push(...planets); });
-  raceModel.find()
+  await raceModel.find()
     .then((races) => { collectionsAll.push(...races); });
-  characterModel.find()
+  await characterModel.find()
     .then((characters) => {
       collectionsAll.push(...characters);
       res
@@ -74,13 +84,21 @@ const getFromCollection = (req, res, next) => {
     case 'characters':
       characterModel.find()
         .then((characters) => {
-          // console.log(characters);
           res
             .status(STATUS_OK)
             .send(sendCollection(characters, req));
         })
         .catch(next);
       break;
+    // case 'contacts':
+    //   contactModel.find()
+    //     .then((contact) => {
+    //       res
+    //         .status(STATUS_OK)
+    //         .send(sendCollection(contact, req));
+    //     })
+    //     .catch(next);
+    //   break;
     default:
       break;
   }
@@ -109,8 +127,127 @@ const getById = (req, res, next) => {
   }
 };
 
+const getContacts = (req, res, next) => {
+  const { id } = req.params;
+  if (id === 'all') {
+    contactModel.find()
+      .then((contacts) => {
+        const safetyContact = [];
+
+        contacts.forEach((contact) => {
+          safetyContact.push({
+            id: contact.id,
+            email: contact.email,
+            phone: contact.phone,
+          });
+        });
+
+        res.status(STATUS_OK).send(safetyContact);
+      })
+      .catch((err) => next(err));
+  } else {
+    contactModel.findById(id)
+    // eslint-disable-next-line consistent-return
+      .then((contact) => {
+        if (!contact) {
+          return next(new NotFound('Указанный контакт не найден.'));
+        }
+        const safetyContact = {
+          id: contact.id,
+          email: contact.email,
+          phone: contact.phone,
+        };
+        res.status(STATUS_OK).send(safetyContact);
+      })
+      .catch(next);
+  }
+};
+
+const createContact = async (req, res, next) => {
+  const { email, password, phone } = req.body;
+
+  await bcrypt.hash(password, Number(SALT_ROUNDS))
+    .then((hash) => {
+      contactModel.create({ email, password: hash, phone })
+        .then(() => {
+          res
+            .status(CREATED)
+            .send({ email });
+        })
+        .catch((err) => {
+          if (err.code === ERROR_CODE_UNIQUE && !err.keyPattern.email === false) {
+            next(new NotUnique('Пользователь с такой почтой уже зарегистрирован'));
+          } else if (err.code === ERROR_CODE_UNIQUE && !err.keyPattern.phone === false) {
+            next(new NotUnique('Пользователь с таким номером уже зарегистрирован'));
+          } else if (err instanceof ValidationError) {
+            next(new BadRequest(`Переданы некорректные данные: ${err.message}`));
+          } else {
+            next(err);
+          }
+        });
+    })
+    .catch((err) => { throw err; });
+};
+
+// eslint-disable-next-line consistent-return
+const updateContact = async (req, res, next) => {
+  const { id } = req.params;
+  const { email, phone } = req.body;
+  try {
+    const existingUserByEmail = await contactModel.findOne({ email });
+    const existingUserByPhone = await contactModel.findOne({ phone });
+
+    if (existingUserByEmail && existingUserByEmail._id !== id) {
+      return next(new NotUnique('Пользователь с таким email уже зарегистрирован'));
+    }
+    if (existingUserByPhone && existingUserByPhone._id !== id) {
+      return next(new NotUnique('Пользователь с таким phone уже зарегистрирован'));
+    }
+
+    const updatedContact = await contactModel.findByIdAndUpdate(
+      id,
+      { email, phone },
+      { new: true, runValidators: true },
+    );
+
+    if (!updatedContact) {
+      return next(new NotFound('Указанный контакт не найден.'));
+    }
+
+    res.status(STATUS_OK).send({ email, phone });
+
+    // console.log(updatedContact);
+  } catch (err) {
+    if (err instanceof ValidationError || err instanceof CastError) {
+      next(new BadRequest(`Переданы некорректные данные: ${err.message}`));
+    } else {
+      throw err;
+    }
+  }
+};
+
+// eslint-disable-next-line consistent-return
+const deleteContact = async (req, res, next) => {
+  const { id } = req.params;
+
+  try {
+    const contact = await contactModel.findById(id);
+    if (!contact) {
+      return next(new NotFound('Контакт с указанным id не найден.'));
+    }
+    contactModel.deleteOne({ _id: id })
+      .then(res.status(STATUS_OK).send({ message: 'Контакт удалён.' }));
+  } catch (err) {
+    next(err);
+  }
+};
+
 module.exports = {
   getAll,
   getFromCollection,
   getById,
+  getContacts,
+  createContact,
+  updateContact,
+  deleteContact,
 };

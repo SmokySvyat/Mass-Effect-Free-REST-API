@@ -18,11 +18,11 @@ const baseCharacterSchema = new mongoose.Schema({
     required: true,
   },
   birth: {
-    type: String,
+    type: Object,
     required: false,
   },
   death: {
-    type: String,
+    type: Array,
     required: false,
   },
   homePlanet: {
@@ -57,7 +57,7 @@ const baseCharacterSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-});
+}, { versionKey: false });
 
 const baseCharacterModel = mongoose.model('baseCharacter', baseCharacterSchema);
 

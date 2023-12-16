@@ -7,7 +7,7 @@ const characterSchema = new mongoose.Schema({
   ru: baseCharacterSchema,
   en: baseCharacterSchema,
   contacts: contactsSchema,
-});
+}, { versionKey: false });
 
 const characterModel = mongoose.model('Character', characterSchema);
 

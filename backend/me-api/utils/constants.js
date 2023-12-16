@@ -17,9 +17,10 @@ const limiter = rateLimiter({
 });
 
 const {
-  PORT = 3000,
+  PORT = 3002,
   MONGO = 'mongodb://127.0.0.1:27017/masseffect',
   JWT_SECRET = '64b47cd7d12efe505db57767',
+  SALT_ROUNDS = 15,
   NODE_ENV,
 } = process.env;
 
@@ -35,5 +36,6 @@ module.exports = {
   PORT,
   MONGO,
   JWT_SECRET,
+  SALT_ROUNDS,
   NODE_ENV,
 };

@@ -1,9 +1,15 @@
-const mongoose = require('mongoose');
+const { Schema, model } = require('mongoose');
+const validator = require('validator');
 
-const contactsSchema = new mongoose.Schema({
+const contactsSchema = new Schema({
   email: {
     type: String,
+    unique: true,
     required: true,
+    validate: {
+      validator: (v) => validator.isEmail(v),
+      message: 'Некорректный email',
+    },
   },
   password: {
     type: String,
@@ -11,12 +17,17 @@ const contactsSchema = new mongoose.Schema({
   },
   phone: {
     type: String,
+    unique: true,
     required: true,
+    validate: {
+      validator: (v) => validator.isDecimal(v),
+      message: 'Некорректный номер',
+    },
   },
-});
+}, { versionKey: false });
 
-const contactsModel = mongoose.model('contacts', contactsSchema);
+const contactModel = model('Contact', contactsSchema);
 module.exports = {
-  contactsModel,
+  contactModel,
   contactsSchema,
 };

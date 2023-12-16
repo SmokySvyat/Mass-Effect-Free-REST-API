@@ -43,7 +43,7 @@ const baseRaceSchema = new mongoose.Schema({
   culture: [articleSchema],
   government: [articleSchema],
   economy: [articleSchema],
-});
+}, { versionKey: false });
 
 const baseRaceModel = mongoose.model('baseRace', baseRaceSchema);
 

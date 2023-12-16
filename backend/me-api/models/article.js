@@ -9,7 +9,7 @@ const articleSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-});
+}, { versionKey: false });
 
 const articleModel = mongoose.model('Article', articleSchema);
 module.exports = {
