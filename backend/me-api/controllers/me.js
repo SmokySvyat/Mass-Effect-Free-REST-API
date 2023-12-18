@@ -109,7 +109,7 @@ const getById = (req, res, next) => {
         .catch(next);
       break;
     case 'characters':
-      characterModel.findById(id).children
+      characterModel.findById(id)
         .then((character) => res.status(STATUS_OK).send(character))
         .catch(next);
       break;
