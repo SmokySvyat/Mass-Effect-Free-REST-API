@@ -1,12 +1,12 @@
 const mongoose = require('mongoose');
 const { baseCharacterSchema } = require('./baseCharacter');
-const { contactsSchema } = require('./contacts');
+const { contactSchema } = require('./contacts');
 
 const characterSchema = new mongoose.Schema({
   photo: String,
   ru: baseCharacterSchema,
   en: baseCharacterSchema,
-  contacts: contactsSchema,
+  contacts: contactSchema,
 }, { versionKey: false });
 
 const characterModel = mongoose.model('Character', characterSchema);
