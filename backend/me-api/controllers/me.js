@@ -90,15 +90,6 @@ const getFromCollection = (req, res, next) => {
         })
         .catch(next);
       break;
-    // case 'contacts':
-    //   contactModel.find()
-    //     .then((contact) => {
-    //       res
-    //         .status(STATUS_OK)
-    //         .send(sendCollection(contact, req));
-    //     })
-    //     .catch(next);
-    //   break;
     default:
       break;
   }
@@ -117,8 +108,8 @@ const getById = (req, res, next) => {
         .then((race) => res.status(STATUS_OK).send(race))
         .catch(next);
       break;
-    case 'character':
-      characterModel.findById(id)
+    case 'characters':
+      characterModel.findById(id).children
         .then((character) => res.status(STATUS_OK).send(character))
         .catch(next);
       break;
@@ -139,6 +130,9 @@ const getContacts = (req, res, next) => {
             id: contact.id,
             email: contact.email,
             phone: contact.phone,
+            createdAt: contact.createdAt,
+            updatedAt: contact.updatedAt,
+            parent: contact.parent,
           });
         });
 
@@ -164,11 +158,18 @@ const getContacts = (req, res, next) => {
 };
 
 const createContact = async (req, res, next) => {
-  const { email, password, phone } = req.body;
+  const {
+    email, password, phone, parent,
+  } = req.body;
 
   await bcrypt.hash(password, Number(SALT_ROUNDS))
     .then((hash) => {
-      contactModel.create({ email, password: hash, phone })
+      contactModel.create({
+        email,
+        password: hash,
+        phone,
+        parent,
+      })
         .then(() => {
           res
             .status(CREATED)
@@ -214,7 +215,11 @@ const updateContact = async (req, res, next) => {
       return next(new NotFound('Указанный контакт не найден.'));
     }
 
-    res.status(STATUS_OK).send({ email, phone });
+    res.status(STATUS_OK).send({
+      email,
+      phone,
+      updatedAt: updatedContact.updatedAt,
+    });
 
     // console.log(updatedContact);
   } catch (err) {
