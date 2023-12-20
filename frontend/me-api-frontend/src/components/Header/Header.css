@@ -1,0 +1,34 @@
+.header {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+
+  background-color: #000;
+}
+
+.header-background {
+  position: absolute;
+  top: -130px;
+  right: 0;
+  width: 2000px;
+  height: 130vh;
+
+  background-image: url(../../../images/landing__back-img.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 130%;
+}
+
+.header-title {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 600px;
+  border-radius: 5px;
+  top: 40vh;
+  left: 0;
+  margin-left: 50px;
+  z-index: 1;
+
+  font-size: calc(10px + 5vh);
+  font-variant: small-caps;
+}
