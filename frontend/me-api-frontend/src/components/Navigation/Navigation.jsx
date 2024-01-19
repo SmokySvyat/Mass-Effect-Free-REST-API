@@ -13,12 +13,13 @@ function Navigation () {
     return (
         <nav className="navigation">
           <ul id="nav" className={navClassName}>
-            <li><a className="nav-landing__link" href="#main">Main</a></li>
-            <li><a className="nav-landing__link" href="#spec">Documentation</a></li>
-            <li><a className="nav-landing__link" href="#contacts">Contacts</a></li>
-            <li><a className="nav-landing__link" href="#">Add more INFO</a></li>
-            <li><a className="nav-landing__link" href="#">Example</a></li>
-            <li><a className="nav-landing__link" href="#">Language</a></li>
+            <li><a className="nav-landing__link" href="#main">Главня</a></li>
+            <li><a className="nav-landing__link" href="#about">Описание</a></li>
+            <li><a className="nav-landing__link" href="#spec">Спецификация</a></li>
+            <li><a className="nav-landing__link" href="#contacts">Контакты</a></li>
+            {/* <li><a className="nav-landing__link" href="#">Add more INFO</a></li> */}
+            {/* <li><a className="nav-landing__link" href="#">Example</a></li> */}
+            {/* <li><a className="nav-landing__link" href="#">Language</a></li> */}
           </ul>
         </nav>
     )
