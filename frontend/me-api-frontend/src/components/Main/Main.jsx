@@ -170,7 +170,7 @@ function Main () {
                     содержится что-то кроме цифр, документ не создаётся, возвращается объект с сообщением об ошибке соответсвующего характера.
                 </p>
                 <p className='spec-list__item-description'>
-                    Ошибка "<span className='span-error'>Not Unique</span>".
+                    Ошибка "<a href='#not-unique' className='span-error'>Not Unique</a>".
                 </p>
             </li>
 
