@@ -1,0 +1,136 @@
+[{
+  "_id": {
+    "$oid": "65800614ffba2d80f0e35bce"
+  },
+  "email": "liara@meapi.gl",
+  "password": "$2b$10$JQzX9VwofICxMbXNV//JbOKF69DOz8IYozVGZsf0kk1JJOMyGMS42",
+  "phone": "03334447780",
+  "createdAt": {
+    "$date": "2023-12-18T08:43:00.038Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-18T08:43:00.038Z"
+  },
+  "parent": {
+    "$oid": "657c52e18e67fe8a7db42db2"
+  }
+},
+{
+  "_id": {
+    "$oid": "65800d6c0dba4d15ebe4b405"
+  },
+  "email": "tali@meapi.gl",
+  "password": "$2b$10$5lolNmNJerpJAoevvCSfouLvVjbjEtttQylb3JUbKBddkxpj3STee",
+  "phone": "03334447781",
+  "parent": {
+    "$oid": "657c52e18e67fe8a7db42db3"
+  },
+  "createdAt": {
+    "$date": "2023-12-18T09:14:20.148Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-18T09:14:20.148Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "658013a0f8b4d4a2c29a4ab8"
+  },
+  "email": "ashley@meapi.gl",
+  "password": "$2b$10$ZyMhZv3N4Qot1SG89r28OeQhcqFyQTKokrskYkoaaUBpaj3mLvwtG",
+  "phone": "03334447782",
+  "parent": {
+    "$oid": "657c52e18e67fe8a7db42db4"
+  },
+  "createdAt": {
+    "$date": "2023-12-18T09:40:48.346Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-18T09:40:48.346Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "658017b3f8b4d4a2c29a4b5b"
+  },
+  "email": "legion@geth.net",
+  "password": "$2b$10$JnfBo6OA27sWTwjru4OLWeIG11LE4JKxuPPIcpWMM7E5Oykd2l6wG",
+  "phone": "03334447783",
+  "parent": {
+    "$oid": "657c52e18e67fe8a7db42db5"
+  },
+  "createdAt": {
+    "$date": "2023-12-18T09:58:11.379Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-18T09:58:11.379Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65801807f8b4d4a2c29a4b87"
+  },
+  "email": "garus@meapi.gl",
+  "password": "$2b$10$YWNVWaapsAqeeASHZEzLaOWGy3W0aM24X6O5GY/ZL3E7EQF1RqN1W",
+  "phone": "03334447784",
+  "parent": {
+    "$oid": "657c52e18e67fe8a7db42db6"
+  },
+  "createdAt": {
+    "$date": "2023-12-18T09:59:35.743Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-18T09:59:35.743Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6580188cf8b4d4a2c29a4b9d"
+  },
+  "email": "wrex@urdnot.tu",
+  "password": "$2b$10$2Cc7l6rA3.PBNN5HVwgrMeS/yrw4QNSLRF1Es7mQFnVp1q97UQMsW",
+  "phone": "03334447785",
+  "parent": {
+    "$oid": "657c52e18e67fe8a7db42db7"
+  },
+  "createdAt": {
+    "$date": "2023-12-18T10:01:48.480Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-18T10:01:48.480Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "658018e3f8b4d4a2c29a4b9f"
+  },
+  "email": "mordin@meapi.gl",
+  "password": "$2b$10$.7QxVgiiXLBLjShSaFHtROFQEbC/Xl/QQekeq5OZ9njo7XBPaG3Fm",
+  "phone": "03334447786",
+  "parent": {
+    "$oid": "657c52e18e67fe8a7db42db8"
+  },
+  "createdAt": {
+    "$date": "2023-12-18T10:03:15.973Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-18T10:03:15.973Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65801940f8b4d4a2c29a4ba1"
+  },
+  "email": "thane@meapi.gl",
+  "password": "$2b$10$mfF6u.oLHzUtn8I2R9vntOuXUavNpvRZkvTZQf7jSxXfgIstOOlay",
+  "phone": "03334447787",
+  "parent": {
+    "$oid": "657c52e18e67fe8a7db42db9"
+  },
+  "createdAt": {
+    "$date": "2023-12-18T10:04:48.834Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-18T10:04:48.834Z"
+  }
+}]

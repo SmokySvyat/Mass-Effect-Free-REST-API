@@ -1,77 +1,7 @@
-[
-{
-  "photo": "",
-  "ru": {
-    "name": "",
-    "lastName": "",
-    "race": "",
-    "sex": "",
-    "birth": {
-      "date": "",
-      "place": ""
-      },
-    "death": [
-      {
-      "date": "",
-      "place": ""
-      }
-    ],
-    "homePlanet": "",
-    "appearance": [
-      ""
-    ],
-    "nativeLanguage": "",
-    "organisation": "",
-    "kindOfActivity": [
-      ""
-    ],
-    "rank": "",
-    "biotic": "",
-    "voiceActor": {
-      "russianLanguage": "",
-      "englishLanguage": ""
-      },
-    "about": ""
+[{
+  "_id": {
+    "$oid": "657c52e18e67fe8a7db42db2"
   },
-  "en": {
-    "name": "",
-    "lastName": "",
-    "race": "",
-    "sex": "",
-    "birth": {
-      "date": "",
-      "place": ""
-      },
-    "death": [
-      {
-      "date": "",
-      "place": ""
-      }
-    ],
-    "homePlanet": "",
-    "appearance": [
-      ""
-    ],
-    "nativeLanguage": "",
-    "organisation": "",
-    "kindOfActivity": [
-      ""
-    ],
-    "rank": "",
-    "biotic": "",
-    "voiceActor": {
-      "russianLanguage": "",
-      "englishLanguage": ""
-      },
-    "about": ""
-    },
-  "contacts": {
-    "email": "@meapi.gl",
-    "password": "Qwerty1!",
-    "phone": "03334447788"
-    }
-},
-{
   "photo": "https://static.wikia.nocookie.net/masseffect/images/a/a0/%D0%9B%D0%B8%D0%B0%D1%80%D0%B0%D0%92%D0%B8%D0%BA%D0%B81.png/revision/latest?cb=20210601191345&path-prefix=ru",
   "ru": {
     "name": "Лиара",
@@ -81,11 +11,11 @@
     "birth": {
       "date": "2077",
       "place": "Тессия"
-      },
+    },
     "death": {
       "date": "Возможна в 2186 году",
       "place": "битва за Землю"
-      },
+    },
     "homePlanet": "Тессия",
     "appearance": [
       "Mass Effect",
@@ -104,7 +34,7 @@
     "voiceActor": {
       "russianLanguage": "Марина Лисовец",
       "englishLanguage": "Али Хиллис, Джэми Марчини (Paragon Lost)"
-      },
+    },
     "about": "Родилась в 2077 году на Тессии. Родителями Лиары были пара матриархов-азари: Бенезия и Этита, так что Лиара является одной из немногих для своего поколения чистокровных азари. Этита не принимала деятельного участия в судьбе Лиары, поэтому Бенезия, мать девочки, воспитывала её в одиночку и никогда не рассказывала Лиаре о своей партнёрше. С раннего детства Лиара находилась в тени своей знаменитой матери — уважаемого религиозного лидера и наставника азари, всегда окруженного множеством последователей. Все считали, что дочь должна пойти по стопам авторитетной матери, но сама Лиара имела на этот счёт другое мнение. Лиара с детства проявляла интерес к исследованиям. Однажды она полезла в старые развалины и еле выбралась оттуда. Когда мать узнала об этом, то прочитала дочери длинную нотацию, а на следующий день купила Лиаре её первую книгу по истории. Примерно в 50 лет окончила Серрайский университет на Тессии, получив докторскую степень по археологии. Следующие ~50 лет Лиара путешествовала по Галактике, исследуя руины протеан; небольшой рассказ о её исследованиях можно услышать сразу после её спасения с планеты Терум в Mass Effect. Самостоятельно сформулировала теорию о циклах, но ввиду молодости и чистокровности более зрелые и влиятельные азари не восприняли её всерьёз. Также следует добавить, что в молодости Лиара, в отличие от большинства своих ровесниц, вела спокойную размеренную, посвящённую исследовательской работе жизнь, находясь, в основном, в одиночестве. Эти факты оказали заметное и значительное влияние на её привычки, характер и личность в целом. "
   },
   "en": {
@@ -115,13 +45,11 @@
     "birth": {
       "date": "2077",
       "place": "Thessia"
-      },
-    "death": [
-      {
+    },
+    "death": {
       "date": "posibly 2186",
       "place": "battle for Earth"
-      }
-    ],
+    },
     "homePlanet": "Thessia",
     "appearance": [
       "Mass Effect",
@@ -140,16 +68,21 @@
     "voiceActor": {
       "russianLanguage": "Marina Lisovec",
       "englishLanguage": "Ali Hillis, Jamie Marchi (Mass Effect: Paragon Lost)"
-      },
+    },
     "about": "Dr. Liara T'Soni is an asari researcher who has spent the past fifty years of her life studying Prothean technology and culture, specialising in the Prothean extinction. She was born on Thessia in 2077, making her 'only' 106—barely an adult in asari terms. She already has a great deal of insight into the Protheans and is a highly trained user of biotics. She is a potential romantic interest for either a male or female Shepard."
   },
   "contacts": {
     "email": "liara@meapi.gl",
-    "password": "Qwerty1!",
-    "phone": "03334447780"
+    "phone": "03334447780",
+    "_id": {
+      "$oid": "65800614ffba2d80f0e35bce"
     }
+  }
 },
 {
+  "_id": {
+    "$oid": "657c52e18e67fe8a7db42db3"
+  },
   "photo": "https://static.wikia.nocookie.net/masseffect/images/4/4d/%D0%A2%D0%B0%D0%BB%D0%B8%D0%97%D0%BE%D1%80%D0%B01.png/revision/latest?cb=20210523071907&path-prefix=ru",
   "ru": {
     "name": "Тали",
@@ -159,11 +92,11 @@
     "birth": {
       "date": "2161 год",
       "place": "Корабль «Райя», Мигрирующий флот"
-      },
+    },
     "death": [
       {
-      "date": "2185 год",
-      "place": "Возможна на Корабле Коллекционеров"
+        "date": "2185 год",
+        "place": "Возможна на Корабле Коллекционеров"
       },
       {
         "date": "2186 год",
@@ -192,8 +125,8 @@
     "voiceActor": {
       "russianLanguage": "Екатерина Сахарова",
       "englishLanguage": "Лиз Срока"
-      },
-    "about": "Тали родилась в 2161 году на борту корабля «Райя». В соответствии с традицией своего народа, по достижению совершеннолетия она покинула Мигрирующий флот для совершения паломничества, чего могла бы избежать, будучи дочерью адмирала Раэля’Зоры и талантливейшим техником. В своих путешествиях она часто перехватывала отчёты гетов, которые проникли за Вуаль Персея. Поскольку кварианцы были изгнаны гетами из родного мира, поиск информации, которяя могла бы помочь победить захватчиков стала её основной миссией. По воле случая Тали получила ценную информацию, отключив патрульного гета на незаселённой планете ловко изъяв модуль памяти синтетика до срабатывания защитной системы самоуничтожения. В одном из файлов оказалась чувствительная информация о Спектре Сарене, которая свидетельствовала о его причастности к нападению на человеческую колонию Иден Прайм. Понимая какой информацией ей удалось завладеть, Тали решает скрыться на Цитадели. "  
+    },
+    "about": "Тали родилась в 2161 году на борту корабля «Райя». В соответствии с традицией своего народа, по достижению совершеннолетия она покинула Мигрирующий флот для совершения паломничества, чего могла бы избежать, будучи дочерью адмирала Раэля’Зоры и талантливейшим техником. В своих путешествиях она часто перехватывала отчёты гетов, которые проникли за Вуаль Персея. Поскольку кварианцы были изгнаны гетами из родного мира, поиск информации, которяя могла бы помочь победить захватчиков стала её основной миссией. По воле случая Тали получила ценную информацию, отключив патрульного гета на незаселённой планете ловко изъяв модуль памяти синтетика до срабатывания защитной системы самоуничтожения. В одном из файлов оказалась чувствительная информация о Спектре Сарене, которая свидетельствовала о его причастности к нападению на человеческую колонию Иден Прайм. Понимая какой информацией ей удалось завладеть, Тали решает скрыться на Цитадели. "
   },
   "en": {
     "name": "Tali",
@@ -203,11 +136,11 @@
     "birth": {
       "date": "2161",
       "place": "Rayya"
-      },
+    },
     "death": [
       {
-      "date": "2185",
-      "place": "Posibly on Collectors ship"
+        "date": "2185",
+        "place": "Posibly on Collectors ship"
       },
       {
         "date": "2186",
@@ -231,16 +164,21 @@
     "voiceActor": {
       "russianLanguage": "Ekaterina Saharova",
       "englishLanguage": "Ash Sroka"
-      },
-    "about": "Tali'Zorah nar Rayya is a quarian and a member of Commander Shepard's squad. She is the daughter of Rael'Zorah, a member of the Admiralty Board. Though young, Tali is a mechanical genius. In 2183, she is on her Pilgrimage, the rite of passage to prove her worth and bring something of value back to her people aboard the Migrant Fleet. In 2185, having completed her Pilgrimage, Tali has been entrusted with leading an important research mission for the Admiralty Board. "
     },
+    "about": "Tali'Zorah nar Rayya is a quarian and a member of Commander Shepard's squad. She is the daughter of Rael'Zorah, a member of the Admiralty Board. Though young, Tali is a mechanical genius. In 2183, she is on her Pilgrimage, the rite of passage to prove her worth and bring something of value back to her people aboard the Migrant Fleet. In 2185, having completed her Pilgrimage, Tali has been entrusted with leading an important research mission for the Admiralty Board. "
+  },
   "contacts": {
     "email": "tali@meapi.gl",
-    "password": "Qwerty1!",
-    "phone": "03334447781"
+    "phone": "03334447781",
+    "_id": {
+      "$oid": "65800d6c0dba4d15ebe4b405"
     }
+  }
 },
 {
+  "_id": {
+    "$oid": "657c52e18e67fe8a7db42db4"
+  },
   "photo": "https://static.wikia.nocookie.net/masseffect/images/f/f9/%D0%AD%D1%88%D0%BB%D0%B8%D0%92%D0%B8%D0%BA%D0%B8.jpg/revision/latest?cb=20190609045913&path-prefix=ru",
   "ru": {
     "name": "Эшли",
@@ -250,11 +188,11 @@
     "birth": {
       "date": "14 апреля 2158 года",
       "place": "Сиона"
-      },
+    },
     "death": [
       {
-      "date": "2183",
-      "place": "Вермайр (возможно)"
+        "date": "2183",
+        "place": "Вермайр (возможно)"
       },
       {
         "date": "2186",
@@ -286,7 +224,7 @@
     "voiceActor": {
       "russianLanguage": "Ирина Киреева",
       "englishLanguage": "Кимберли Брукс"
-      },
+    },
     "about": "Эшли Мэдлин Уильямс (англ. Ashley Madeline Williams) — способный солдат, один из возможных романтических партнеров Шепарда-мужчины. Родилась 14 апреля 2158 года. Почти вся её военная служба прошла в отдалённых гарнизонах Альянса. Эшли неоднократно подавала прошения о переводе её на службу на действующий флот. И всякий раз их отклоняли без объяснения причины, но она точно знала, что это связано с историей её семьи. Позже выяснилось, что дедушка Эшли был генералом во время войны Первого контакта. Именно он держал оборону Шаньси, но ему пришлось сдать гарнизон турианцам, чтобы спасти жизнь своим солдатам. Несмотря на то, что решение было разумным и, как впоследствии выяснится верным, генерал Уильямс потерял всякое уважение среди командования Альянса, а вместе с ним и звание. Эта история послужила одной из главных причин, по которым Эшли старается стать безупречным солдатом. "
   },
   "en": {
@@ -297,11 +235,11 @@
     "birth": {
       "date": "14 april 2158 ",
       "place": "Siona"
-      },
+    },
     "death": [
       {
-      "date": "2183",
-      "place": "Вермайр (возможно)"
+        "date": "2183",
+        "place": "Вермайр (возможно)"
       },
       {
         "date": "2186",
@@ -323,16 +261,22 @@
     "voiceActor": {
       "russianLanguage": "Irina Kireeva",
       "englishLanguage": "Kimberly Brooks"
-      },
-    "about": "Ashley Madeline Williams is a human soldier who served in the Systems Alliance as a Gunnery Chief in the 2nd Frontier Division on Eden Prime, and was later assigned to Commander Shepard's squad after the geth attack on Eden Prime. She is a potential romance partner for a male Shepard. "
     },
+    "about": "Ashley Madeline Williams is a human soldier who served in the Systems Alliance as a Gunnery Chief in the 2nd Frontier Division on Eden Prime, and was later assigned to Commander Shepard's squad after the geth attack on Eden Prime. She is a potential romance partner for a male Shepard. "
+  },
   "contacts": {
     "email": "ashley@meapi.gl",
     "password": "Qwerty1!",
-    "phone": "03334447782"
+    "phone": "03334447782",
+    "_id": {
+      "$oid": "658013a0f8b4d4a2c29a4ab8"
     }
+  }
 },
 {
+  "_id": {
+    "$oid": "657c52e18e67fe8a7db42db5"
+  },
   "photo": "https://static.wikia.nocookie.net/masseffect/images/a/af/LegionDerelictReaperLE2.png/revision/latest/scale-to-width-down/1000?cb=20220827041012",
   "ru": {
     "name": "Легион",
@@ -342,11 +286,11 @@
     "birth": {
       "date": "Нет данных…",
       "place": "Нет данных…"
-      },
+    },
     "death": [
       {
-      "date": "2185 год",
-      "place": "Возможна во время атаки на базу Коллекционеров"
+        "date": "2185 год",
+        "place": "Возможна во время атаки на базу Коллекционеров"
       },
       {
         "date": "2186 год",
@@ -369,7 +313,7 @@
     "voiceActor": {
       "russianLanguage": "",
       "englishLanguage": "Д.С. Дуглас"
-      },
+    },
     "about": "Легион — уникальная мобильная платформа гетов, созданная для исполнения исследовательских задач вне Вуали Персея и взаимодействия с органикой вербально.Для этой цели на его платформу было установлено 1183 программы, что почти в двенадцать раз больше, чем количество программ рядовой платформы (около сотни). Именно это позволяет ему независимо функционировать от общей сети и разговаривать с органиками. Во внешность платформы Легиона внесены специальные улучшения, которые развивают исходные способности гетов, а также позволяют ему выражать эмоции при общении с органиками, притом довольно успешно. Пластины на голове не несут боевой пользы, а служат в качестве бровей. Он использует их для той же цели, что и люди — выражать чувства и эмоции. Например, он поднимает их, чтобы показать удивление, заинтересованность, и складывает на лбу, чтобы показать сосредоточение. Также платформа имеет аналог «глаз», которые изменяют свой цвет с той же целью — показать гнев, заинтересованность или спокойствие в общении с органиками. Легион был создан и направлен по следу капитана Шепард(а), сумевшего(ей) уничтожить «Старую Машину» («Назару»), остальной галактике известную как «Властелин». Исследуя планеты, на которых побывал(а) Шепард — Иден Прайм, Терум, Ферос, Новерию, Вермайр, Илос и массу не отмеченных миров, — в конце концов он находит место крушения «Нормандии» на планете Алкера, берёт часть брони N7 Шепард(а) и монтирует её на корпус своей платформы, дабы залатать повреждения, полученные на Иден Прайм от солдат Альянса. Если спросить, почему для ремонта была использована именно броня Шепард(а), Легион станет уклоняться от ответа, сначала пояснив: «Во мне была дыра», а затем, не найдя способа описать логику своих действий, отвечает: «Нет данных». Но если надавить на гета, он признается, что это был результат нелогичного действия, которое идёт вразрез с общим представлением о гетах, исходя из которого, все их действия совершаются как результат точного расчёта, независимо от эмоций. "
   },
   "en": {
@@ -380,11 +324,11 @@
     "birth": {
       "date": "No data available...",
       "place": "No data available..."
-      },
+    },
     "death": [
       {
-      "date": "2185",
-      "place": "Posibly on Collectors ship"
+        "date": "2185",
+        "place": "Posibly on Collectors ship"
       },
       {
         "date": "2186",
@@ -407,16 +351,22 @@
     "voiceActor": {
       "russianLanguage": "",
       "englishLanguage": "D. C. Douglas"
-      },
-    "about": "Legion is the name taken by the gestalt consciousness formed by 1,183 geth programs inhabiting a unique geth 'mobile platform'. "
     },
+    "about": "Legion is the name taken by the gestalt consciousness formed by 1,183 geth programs inhabiting a unique geth 'mobile platform'. "
+  },
   "contacts": {
     "email": "legion@geth.net",
     "password": "Qwerty1!",
-    "phone": "03334447783"
+    "phone": "03334447783",
+    "_id": {
+      "$oid": "658017b3f8b4d4a2c29a4b5b"
     }
+  }
 },
 {
+  "_id": {
+    "$oid": "657c52e18e67fe8a7db42db6"
+  },
   "photo": "https://static.wikia.nocookie.net/masseffect/images/2/2f/%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82_%D0%93%D0%B0%D1%80%D1%80%D1%83%D1%81%D0%B0_%28%D0%9C%D0%952%29._Art_of_Mass_Effect.png/revision/latest?cb=20160201151311&path-prefix=ru",
   "ru": {
     "name": "Гаррус",
@@ -426,11 +376,11 @@
     "birth": {
       "date": "",
       "place": "Палавен"
-      },
+    },
     "death": [
       {
-      "date": "2185",
-      "place": "Возможна во время атаки на базу Коллекционеров"
+        "date": "2185",
+        "place": "Возможна во время атаки на базу Коллекционеров"
       },
       {
         "date": "2186",
@@ -459,7 +409,7 @@
     "voiceActor": {
       "russianLanguage": "Глеб Подгородинский",
       "englishLanguage": "Брэндон Кинер"
-      },
+    },
     "about": "Гаррус Вакариан (англ. Garrus Vakarian) — турианец, в прошлом следователь Службы Безопасности Цитадели, преданный соратник и один из лучших друзей Шепард(а), бывший в команде капитана на протяжении событий всех трех частей трилогии Mass Effect. "
   },
   "en": {
@@ -470,11 +420,11 @@
     "birth": {
       "date": "",
       "place": "Palaven"
-      },
+    },
     "death": [
       {
-      "date": "2185",
-      "place": "Posibly on Collectors ship"
+        "date": "2185",
+        "place": "Posibly on Collectors ship"
       },
       {
         "date": "2186",
@@ -496,16 +446,22 @@
     "voiceActor": {
       "russianLanguage": "Gleb Podgorodinskiy",
       "englishLanguage": "Brandon Keener"
-      },
-    "about": "Garrus Vakarian is a turian, formerly part of C-Sec's Investigation Division. Like most turians, Garrus had his military training at fifteen, but later followed in his father's footsteps to become a C-Sec officer. He was responsible for the investigation of Saren Arterius, the Council's top Spectre, after the Alliance claimed Saren had gone rogue. Although Garrus was told that the investigation was over, he decided to defy the Executor's order and pursue another lead on his own. Eventually, Garrus attempts to join Commander Shepard's team to help defeat Saren and the geth. "
     },
+    "about": "Garrus Vakarian is a turian, formerly part of C-Sec's Investigation Division. Like most turians, Garrus had his military training at fifteen, but later followed in his father's footsteps to become a C-Sec officer. He was responsible for the investigation of Saren Arterius, the Council's top Spectre, after the Alliance claimed Saren had gone rogue. Although Garrus was told that the investigation was over, he decided to defy the Executor's order and pursue another lead on his own. Eventually, Garrus attempts to join Commander Shepard's team to help defeat Saren and the geth. "
+  },
   "contacts": {
     "email": "garus@meapi.gl",
     "password": "Qwerty1!",
-    "phone": "03334447784"
+    "phone": "03334447784",
+    "_id": {
+      "$oid": "65801807f8b4d4a2c29a4b87"
     }
+  }
 },
 {
+  "_id": {
+    "$oid": "657c52e18e67fe8a7db42db7"
+  },
   "photo": "https://static.wikia.nocookie.net/masseffect/images/c/ca/%D0%A0%D0%B5%D0%BA%D1%81%D0%92%D0%B8%D0%BA%D0%B8%D0%90%D0%BB%D0%BB%D0%B0%D0%BD%D0%B8%D0%B0%D1%80.jpg/revision/latest?cb=20191031153624&path-prefix=ru",
   "ru": {
     "name": "Рекс",
@@ -515,11 +471,11 @@
     "birth": {
       "date": "Около 1486 года",
       "place": "Тучанка"
-      },
+    },
     "death": [
       {
-      "date": "2183",
-      "place": "Вермайр (возможно)"
+        "date": "2183",
+        "place": "Вермайр (возможно)"
       },
       {
         "date": "2186",
@@ -545,7 +501,7 @@
     "voiceActor": {
       "russianLanguage": "Артём Кретов",
       "englishLanguage": "Стив Барр"
-      },
+    },
     "about": "Урднот Рекс (англ. Urdnot Wrex) — известный кроган-наёмник и охотник за головами, а также один из последних представителей Боевых мастеров — редкой разновидности кроганов, совмещающей биотические способности с разрушительной огневой мощью продвинутого вооружения и свойственной виду природной силой и выносливостью. Опытный воин, проведший не одно столетие вдали от дома, Рекс умудрён множеством сражений и ищет для своего народа новый путь; в капитане Шепард(е) он видит родственную душу, такого же воина, как и он сам, а потому и последовал за человеком на охоту за Спектром-предателем Сареном Артериусом, которая определила не только его собственную судьбу, но и будущее всех кроганов."
   },
   "en": {
@@ -556,11 +512,11 @@
     "birth": {
       "date": "Near 1486 year",
       "place": "Tuchanka"
-      },
+    },
     "death": [
       {
-      "date": "2183",
-      "place": "Posibly on Vermayer"
+        "date": "2183",
+        "place": "Posibly on Vermayer"
       },
       {
         "date": "2186",
@@ -586,16 +542,22 @@
     "voiceActor": {
       "russianLanguage": "Artyom Kretov",
       "englishLanguage": "Steven Barr"
-      },
-    "about": "A famed krogan mercenary and bounty hunter, Urdnot Wrex is also one of the last Krogan Battlemasters: rare individuals who combine powerful biotic abilities with the devastating firepower of advanced weaponry. A long-lived krogan who has had many adventures, Wrex has heard of Commander Shepard during his travels, and respects the Commander as a fellow warrior. Despite his chosen path of violence and killing for credits, Wrex is deeply concerned with the fate of his people after the genophage, and is one of the few planning for a new krogan future. "
     },
+    "about": "A famed krogan mercenary and bounty hunter, Urdnot Wrex is also one of the last Krogan Battlemasters: rare individuals who combine powerful biotic abilities with the devastating firepower of advanced weaponry. A long-lived krogan who has had many adventures, Wrex has heard of Commander Shepard during his travels, and respects the Commander as a fellow warrior. Despite his chosen path of violence and killing for credits, Wrex is deeply concerned with the fate of his people after the genophage, and is one of the few planning for a new krogan future. "
+  },
   "contacts": {
     "email": "wrex@urdnot.tu",
     "password": "Qwerty1!",
-    "phone": "03334447785"
+    "phone": "03334447785",
+    "_id": {
+      "$oid": "6580188cf8b4d4a2c29a4b9d"
     }
+  }
 },
 {
+  "_id": {
+    "$oid": "657c52e18e67fe8a7db42db8"
+  },
   "photo": "https://static.wikia.nocookie.net/masseffect/images/d/df/%D0%9C%D0%BE%D1%80%D0%B4%D0%B8%D0%BD_MELE.png/revision/latest/scale-to-width-down/1000?cb=20201109171355&path-prefix=ru",
   "ru": {
     "name": "Мордин",
@@ -605,11 +567,11 @@
     "birth": {
       "date": "2150",
       "place": "Сур'Кеш"
-      },
+    },
     "death": [
       {
-      "date": "2185",
-      "place": "Возможна на базе Коллекционеров"
+        "date": "2185",
+        "place": "Возможна на базе Коллекционеров"
       },
       {
         "date": "2186",
@@ -635,7 +597,7 @@
     "voiceActor": {
       "russianLanguage": "",
       "englishLanguage": "Майкл Битти"
-      },
+    },
     "about": "Мордин Солус (англ. Mordin Solus) — саларианский учёный-генетик, профессор и бывший оперативник ГОР, сыгравший значительную роль в модификации и повторном применении генофага на Тучанке. В 2185 году был завербован капитаном Шепард(ом) и принял участие в кампании против Коллекционеров. "
   },
   "en": {
@@ -646,11 +608,11 @@
     "birth": {
       "date": "2150",
       "place": "Sur'Kesh"
-      },
+    },
     "death": [
       {
-      "date": "2185",
-      "place": "Posibly on Collectors ship"
+        "date": "2185",
+        "place": "Posibly on Collectors ship"
       },
       {
         "date": "2186",
@@ -671,17 +633,22 @@
     "voiceActor": {
       "russianLanguage": "",
       "englishLanguage": "Michael Beattie"
-      },
-    "about": "Mordin Solus is a salarian geneticist, professor, and a former operative of the Special Tasks Group, where he performed reconnaissance and participated in the modification of the genophage. In 2185, he is recruited by Commander Shepard to assist in a high-risk mission against the Collectors. Mordin has a moral character best described as consequentialist, believing the ends justify the means, though he dislikes taking life without good cause. His actions are often guided by an impersonal logic, refusing to let his conscience, personal, and emotional connections cloud his judgment of what he believes is truly best in the big picture. Though he is affable, quick-talking and friendly, Mordin bears physical scars of his time in the STG and is still handling the consequences of his past. "
     },
+    "about": "Mordin Solus is a salarian geneticist, professor, and a former operative of the Special Tasks Group, where he performed reconnaissance and participated in the modification of the genophage. In 2185, he is recruited by Commander Shepard to assist in a high-risk mission against the Collectors. Mordin has a moral character best described as consequentialist, believing the ends justify the means, though he dislikes taking life without good cause. His actions are often guided by an impersonal logic, refusing to let his conscience, personal, and emotional connections cloud his judgment of what he believes is truly best in the big picture. Though he is affable, quick-talking and friendly, Mordin bears physical scars of his time in the STG and is still handling the consequences of his past. "
+  },
   "contacts": {
     "email": "mordin@meapi.gl",
     "password": "Qwerty1!",
-    "phone": "03334447786"
+    "phone": "03334447786",
+    "_id": {
+      "$oid": "658018e3f8b4d4a2c29a4b9f"
     }
+  }
 },
-
 {
+  "_id": {
+    "$oid": "657c52e18e67fe8a7db42db9"
+  },
   "photo": "https://static.wikia.nocookie.net/masseffect/images/0/0d/%D0%A2%D0%B5%D0%B9%D0%BD_MELE.png/revision/latest?cb=20201109170924&path-prefix=ru",
   "ru": {
     "name": "Тейн",
@@ -691,11 +658,11 @@
     "birth": {
       "date": "2146",
       "place": "Кахье"
-      },
+    },
     "death": [
       {
-      "date": "2185",
-      "place": "Возможна при атаке на базу Коллекционеров"
+        "date": "2185",
+        "place": "Возможна при атаке на базу Коллекционеров"
       },
       {
         "date": "2186",
@@ -719,7 +686,7 @@
     "voiceActor": {
       "russianLanguage": "",
       "englishLanguage": "Кейт Ферли"
-      },
+    },
     "about": "Тейн Криос (англ. Thane Krios) — представитель расы дреллов, напарник и друг Шепард(а), впервые встречаемый в Mass Effect 2. "
   },
   "en": {
@@ -730,11 +697,11 @@
     "birth": {
       "date": "2146",
       "place": "Kahje"
-      },
+    },
     "death": [
       {
-      "date": "2185",
-      "place": "Posibly on Collectors ship"
+        "date": "2185",
+        "place": "Posibly on Collectors ship"
       },
       {
         "date": "2186",
@@ -758,13 +725,15 @@
     "voiceActor": {
       "russianLanguage": "",
       "englishLanguage": "Keythe Farley"
-      },
-    "about": "Thane Krios is a drell assassin, rumored to be the most skilled in the galaxy. Unlike most assassins, who prefer to snipe their targets from a distance, Thane prefers to get up close and kill his target personally, utilizing a mixture of stealth, firearms, hand-to-hand combat and biotic abilities. Despite his profession, Thane is a deeply spiritual man who prays for success in his missions. Thane asks for forgiveness after each kill, even going as far as to ignore those in his immediate vicinity until he is finished doing so. Thane is a possible romantic interest for a female Shepard. "
     },
+    "about": "Thane Krios is a drell assassin, rumored to be the most skilled in the galaxy. Unlike most assassins, who prefer to snipe their targets from a distance, Thane prefers to get up close and kill his target personally, utilizing a mixture of stealth, firearms, hand-to-hand combat and biotic abilities. Despite his profession, Thane is a deeply spiritual man who prays for success in his missions. Thane asks for forgiveness after each kill, even going as far as to ignore those in his immediate vicinity until he is finished doing so. Thane is a possible romantic interest for a female Shepard. "
+  },
   "contacts": {
     "email": "thane@meapi.gl",
     "password": "Qwerty1!",
-    "phone": "03334447787"
+    "phone": "03334447787",
+    "_id": {
+      "$oid": "65801940f8b4d4a2c29a4ba1"
     }
-}
-]
+  }
+}]

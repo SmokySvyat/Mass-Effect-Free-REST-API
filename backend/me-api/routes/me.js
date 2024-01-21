@@ -1,7 +1,8 @@
 const router = require('express').Router();
+const { getAll, getFromCollection, getById } = require('../controllers/wikiCollections');
 const {
-  getAll, getFromCollection, getById, getContacts, createContact, updateContact, deleteContact,
-} = require('../controllers/me');
+  getContacts, createContact, updateContact, deleteContact,
+} = require('../controllers/contacts');
 
 router.get('/api/all', getAll);
 router.get('/api/:collection/object/:id', getById);
