@@ -22,7 +22,7 @@
 .header-title {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.6);
-  width: 600px;
+  width: fit-content;
   border-radius: 5px;
   top: 40vh;
   left: 0;
@@ -31,4 +31,21 @@
 
   font-size: calc(10px + 5vh);
   font-variant: small-caps;
+}
+
+@media screen and (max-width: 856px){
+  .header-background {
+    width: 230vw;
+    background-size: 150%;
+  }
+  .header-title {
+    margin-left: 15px;
+    font-size: calc(18px + 3vw);
+  }
+}
+
+@media screen and (max-width: 500px){
+  .header-background {
+    background-size: 230%;
+  }
 }
