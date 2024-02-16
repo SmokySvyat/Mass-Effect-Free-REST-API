@@ -6,7 +6,7 @@ import github from '../../images/github-svgrepo-com.svg';
 
 import { MOBILE_RESOLUTION } from '../../utils/constants';
 
-function Footer () {
+function Footer ({ language }) {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= MOBILE_RESOLUTION);
 
   useEffect(() => {
@@ -37,8 +37,8 @@ function Footer () {
             </a>
           </li>
         </ul>
-        <p className='footer__copyrights'>С вопросами, пожеланиями и предложениями писать в группу Telegram</p>
-        <p className='footer__copyrights'> Святослав Нестеров</p>
+        <p className='footer__copyrights'>{language.telegram}</p>
+        <p className='footer__copyrights'>{language.copyrights}</p>
         </div>
       )
     } else {
@@ -48,18 +48,18 @@ function Footer () {
             <li className='footer__link-item'>
               <img className='footer__link-ico' src={telegram} alt='telegram logo'></img>
               <a className='footer__link' href='https://t.me/mass_effect_api' target='blanc'>
-                С вопросами, пожеланиями и предложениями писать в группу Telegram
+                {language.telegram}
               </a>
             </li>
         
             <li className='footer__link-item'>
               <img className='footer__link-ico' src={github} alt='github logo'></img>
               <a className='footer__link' href='https://github.com/SmokySvyat/Mass-Effect-Free-REST-API/' target='blanc'>
-                Проект на GitHub
+                {language.github}
               </a>
             </li>
           </ul>
-          <p className='footer__copyrights'> Святослав Нестеров</p>
+          <p className='footer__copyrights'>{language.copyrights}</p>
         </div>
       )
     }
