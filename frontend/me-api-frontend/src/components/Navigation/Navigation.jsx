@@ -3,6 +3,8 @@ import React from "react";
 
 function Navigation (props) {
   const [navClassName, setNavClassName] = React.useState('nav-landing');
+  // const [navBtnMenuClassName, setNavBtnMenuClassName] = React.useState('nav-landing__btn-menu');
+  const [isActive, setIsActive] = React.useState(false);
 
   const language = props.language;
   const isMobile = props.isMobile;
@@ -19,6 +21,10 @@ function Navigation (props) {
   const setLanguageEn = () => {
     setUserLanguage('en');
     localStorage.setItem('Language', 'en');
+  }
+
+  const toggleLanguageSelector = () => {
+    setIsActive(!isActive);
   }
   
   window.onscroll = stickyNav;
@@ -42,8 +48,11 @@ function Navigation (props) {
               {/* <li><a className="nav-landing__link" href="#">Add more INFO</a></li> */}
               {/* <li><a className="nav-landing__link" href="#">Example</a></li> */}
               <li>
-                  <button onClick={setLanguageRu} value={'ru'}>{language.ru}</button>
-                  <button onClick={setLanguageEn} value={'en'}>{language.en}</button>
+                <button onClick={toggleLanguageSelector} className='nav-landing__btn'>{language.lang}&#9660;</button>
+                <div className={`nav-landing__btn-menu ${isActive ? 'active' : ''}`}>
+                  <button className='nav-landing__btn_selector' onClick={setLanguageRu} value={'ru'}>{language.ru}</button>
+                  <button className='nav-landing__btn_selector' onClick={setLanguageEn} value={'en'}>{language.en}</button>
+                </div>
               </li>
             </ul>
           </nav>

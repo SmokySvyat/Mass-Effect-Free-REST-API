@@ -81,3 +81,26 @@
   opacity: 0.7;
   transition: all ease 0.3s;
 }
+
+@media screen and (max-width: 856px) {
+  .main {
+    padding: 30px;
+  }
+  .article {
+    padding: 30px;
+
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main {
+    padding: 10px;
+  }
+  .article {
+    padding: 10px;
+    
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
