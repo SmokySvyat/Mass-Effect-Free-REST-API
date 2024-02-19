@@ -3,7 +3,6 @@ import React from "react";
 
 function Navigation (props) {
   const [navClassName, setNavClassName] = React.useState('nav-landing');
-  // const [navBtnMenuClassName, setNavBtnMenuClassName] = React.useState('nav-landing__btn-menu');
   const [isActive, setIsActive] = React.useState(false);
 
   const language = props.language;
@@ -13,14 +12,9 @@ function Navigation (props) {
     setNavClassName((window.scrollY >= window.innerHeight) ? 'nav-landing sticky' : 'nav-landing')
   }
 
-  const setLanguageRu = () => {
-    setUserLanguage('ru');
-    localStorage.setItem('Language', 'ru');
-  }
-
-  const setLanguageEn = () => {
-    setUserLanguage('en');
-    localStorage.setItem('Language', 'en');
+  const toggleLanguage = (e) => {
+    setUserLanguage(e.target.value);
+    localStorage.setItem('Language', e.target.value);
   }
 
   const toggleLanguageSelector = () => {
@@ -33,7 +27,7 @@ function Navigation (props) {
       return (
         <nav className='navigation'>
           <ul id='nav' className={navClassName}>
-            <li><button>{language.menu}</button></li>
+            <li><button className='nav-landing__btn'>&#9776;</button></li>
           </ul>
         </nav>
       )
@@ -50,8 +44,8 @@ function Navigation (props) {
               <li>
                 <button onClick={toggleLanguageSelector} className='nav-landing__btn'>{language.lang}&#9660;</button>
                 <div className={`nav-landing__btn-menu ${isActive ? 'active' : ''}`}>
-                  <button className='nav-landing__btn_selector' onClick={setLanguageRu} value={'ru'}>{language.ru}</button>
-                  <button className='nav-landing__btn_selector' onClick={setLanguageEn} value={'en'}>{language.en}</button>
+                  <button className='nav-landing__btn_selector' onClick={toggleLanguage} value={'ru'}>{language.ru}</button>
+                  <button className='nav-landing__btn_selector' onClick={toggleLanguage} value={'en'}>{language.en}</button>
                 </div>
               </li>
             </ul>

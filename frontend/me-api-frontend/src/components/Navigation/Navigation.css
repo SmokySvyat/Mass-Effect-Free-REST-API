@@ -84,5 +84,19 @@
 }
 
 @media screen and (max-width: 856px){
-  
+  .navigation {
+    min-height: 25px;
+    box-shadow: 0 0 50px 40px #000000;
+  }
+  .nav-landing {
+    padding: 10px 0;
+    /* height: 25px; */
+    justify-content: flex-end;
+  }
+  .nav-landing__btn {
+    margin: 0 20px;
+    width: 25px;
+    height: 25px;
+    font-size: 25px;
+  }
 }
