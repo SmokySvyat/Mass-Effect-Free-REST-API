@@ -1,9 +1,11 @@
 import './Navigation.css';
 import React from "react";
+import Overlay from '../Overlay/Overlay';
 
 function Navigation (props) {
   const [navClassName, setNavClassName] = React.useState('nav-landing');
   const [isActive, setIsActive] = React.useState(false);
+  const [isOpen, setIsOpen] = React.useState(false);
 
   const language = props.language;
   const isMobile = props.isMobile;
@@ -20,14 +22,24 @@ function Navigation (props) {
   const toggleLanguageSelector = () => {
     setIsActive(!isActive);
   }
+
+  const toggleOverlay = () => {
+    setIsOpen(!isOpen);
+  }
   
   window.onscroll = stickyNav;
 
     if (isMobile) {
       return (
         <nav className='navigation'>
+          <Overlay
+            language = {language}
+            isOpen = {isOpen}
+            toggleLanguage = {toggleLanguage}
+            toggleOverlay = {toggleOverlay}
+          />
           <ul id='nav' className={navClassName}>
-            <li><button className='nav-landing__btn'>&#9776;</button></li>
+            <li><button onClick={toggleOverlay} className='nav-landing__btn'>&#9776;</button></li>
           </ul>
         </nav>
       )
