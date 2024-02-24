@@ -1,0 +1,95 @@
+.overlay__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    z-index: 3;
+    position: fixed;
+    top: 0;
+    right: -870px;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    transition: all ease 0.3s;
+}
+
+.open {
+    right: 0;
+    transition: all ease 0.3s;
+}
+
+.overlay {
+    box-sizing: border-box;
+    justify-self:center;
+    list-style-type: none;
+    
+    z-index: 4;
+    margin: 0;
+    padding: 0;
+    width: 55vw;
+    height: 100vh;
+    background-color: #252546;
+    color: #fff;
+    border-radius: 50px 0 0 50px;
+    border: 2px solid #010120;
+    box-shadow: 0 0 50px 5px #010120;
+}
+
+.overlay__item-container, .overlay__header {
+    margin: 8px 10px;
+    padding: 7px 5px;
+    transition: all ease 0.3s;
+}
+
+.overlay__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.overlay__link {
+    text-decoration: none;
+
+    color: inherit;
+    font-size: 1.5em;
+    letter-spacing: 1.5px;
+}
+
+.overlay__item-container:hover {
+    transform: scale(1.2);
+    transition: all ease 0.3s;
+}
+
+.overlay__btn, .overlay__btn_close-btn {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+
+    margin: 0 10px;
+    opacity: 0.7;
+    color: inherit;
+    font-size: 1.3em;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+.overlay__btn:hover, .overlay__btn_close-btn:hover {
+    opacity: 1;
+    transition: all ease 0.3s;
+}
+
+.overlay__btn_close-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+
+    background-image: url('../../images/cross.svg');
+    background-position: center;
+    background-color: #fff;
+    background-size: cover;
+}
+
+@media screen and (max-width: 500px) {
+    .overlay {
+        width: 100vw;
+    }
+}
