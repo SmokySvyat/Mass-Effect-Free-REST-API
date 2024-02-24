@@ -32,7 +32,7 @@ function Footer ({ language }) {
           </li>
 
           <li className='footer__link-item'>
-            <a className='footer__link' href='https://t.me/mass_effect_api' target='blanc'>
+            <a className='footer__link' href='https://github.com/SmokySvyat/Mass-Effect-Free-REST-API' target='blanc'>
               <img className='footer__link-ico' src={github} alt='github logo'></img>
             </a>
           </li>
