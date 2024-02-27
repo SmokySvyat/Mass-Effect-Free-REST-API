@@ -1,4 +1,5 @@
 const PAGE_RU = {
+    value: 'ru',
     menu: 'Меню',
     main_link: 'Главная',
     descr_link: 'Описание',
@@ -8,7 +9,7 @@ const PAGE_RU = {
     overlay_value: 'en',
     overlay_lang: 'English',
     ru: 'Русский',
-    en: 'Английский',
+    en: 'English',
     telegram: 'С вопросами, пожеланиями и предложениями писать в группу Telegram',
     github: 'Проект на GitHub',
     copyrights: 'Святослав Нестеров'

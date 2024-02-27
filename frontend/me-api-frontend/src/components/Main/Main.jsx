@@ -1,6 +1,7 @@
 import './Main.css';
+import TryApp from '../TryApp/TryApp';
 
-function Main () {
+function Main ({language}) {
     return (
         <main className="main">
         <article  id="about" className='article'>
@@ -14,13 +15,10 @@ function Main () {
             Подойдёт как для обучения работы в программах Postman и ему подобных,
             так и для тестирования свего frontend интерфейса.
           </p>
-          {/* <h3>Попробуй</h3>
-          <div>
-            <ul className='link-list'>
-              <li className='link-list__item'></li>
-            </ul>
-          <div className='output'></div>
-          </div> */}
+          <h3>Попробуй</h3>
+          <TryApp
+            language = {language}
+          />
           
         </article>
         <article id="spec" className="article">

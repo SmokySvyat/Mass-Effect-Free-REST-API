@@ -1,2 +1,7 @@
 @import url(./vendor/normalize.css);
 @import url(./vendor/fonts.css);
+
+html, .response-body, .code {
+    scrollbar-width: thin;
+    scrollbar-color: #717481 black;
+}

@@ -53,7 +53,9 @@ function App() {
         language = {handleLanguage()}
         handleLanguage = {setUserLanguage}
         />
-      <Main />
+      <Main
+        language = {handleLanguage()}
+      />
       <Footer
         language = {handleLanguage()}
       />

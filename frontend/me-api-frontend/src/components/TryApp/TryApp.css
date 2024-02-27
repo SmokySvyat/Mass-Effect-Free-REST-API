@@ -1,0 +1,166 @@
+.try-app {
+    display: grid;
+    grid-template-columns: 16vw 1fr;
+    grid-template-rows: 1fr;
+    gap: 5px;
+    height: fit-content;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: rgb(71,74,81);
+}
+
+.try-app__list {
+    box-sizing: border-box;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    max-width: 300px;
+    max-height: 505px;
+
+    border-radius: 10px;
+    border-right: 1px solid rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 0 10px black;
+    background-color: rgba(0, 0, 0, 0.2);
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.try-app__list-item {
+    width: fit-content;
+    margin: 10px auto;
+}
+
+.try-app__btn {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 5px 0 0;
+    background-color: #fff;
+    border: 2px solid black;
+    width: 14vw;
+    max-width: 280px;
+    height: 40px;
+
+    text-align: right;
+    font-size: 14px;
+    text-wrap: wrap;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+.try-app__span {
+    padding: 0 10px 0 5px;
+    min-width: fit-content;
+    font-weight: 700;
+    line-height: 40px;
+    background-color: rgb(89, 90, 92);
+    border-radius: 0 20px 20px 0;
+}
+
+.try-app__span_get {
+    color: rgb(2, 158, 2);
+}
+.try-app__span_post {
+    color: orange;
+}
+.try-app__span_patch {
+    color: rgb(107, 0, 107);
+}
+.try-app__span_delete {
+    color: rgb(190, 0, 0);
+}
+
+.try-app__reqres {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.reqres-url {
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+    margin: 0;
+    padding: 7px 15px;
+    width: 100%;
+    height: 40px;
+
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    background-color: #fff;
+
+    color: #000;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.1px;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+}
+
+.reqres-controls {
+    box-sizing: border-box;
+    display: flex;
+    padding: 10px 0 0 15px;
+}
+
+.response-code {
+    margin: 5px 5px 0 auto;
+    height: 20px;
+    width: 160px;
+
+    font-family: monospace;
+    font-size: 14px;
+    text-align: left;
+    line-height: normal;
+    display: inline-block;
+}
+
+.response-code_code {
+    min-width: 50px;
+    min-height: 20px;
+    color: green;
+}
+
+.reqres-btn {
+    z-index: 1;
+    margin: 0 0 0 -9px;
+    padding: 0 0 0 10px;
+    
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 5px 5px 0 0;
+    box-shadow: -4px 0 5px 1px black;
+    background-color: rgba(255, 255, 255, 0.6);
+
+    width: 100px;
+
+    font-family: monospace;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    /* color: #fff; */
+}
+
+.reqres-btn_active {
+    box-shadow: 0px 0 5px 2px black;
+    z-index: 2;
+    background-color: #fff;
+}
+
+.response-body {
+    box-sizing: inherit;
+    margin: 0;
+    width: 100%;
+    height: 400px;
+    overflow-y: scroll;
+    background-color: #010120;
+    
+    text-align: left;
+    font-family: monospace;
+    font-size: 16px;
+    line-height: normal;
+}

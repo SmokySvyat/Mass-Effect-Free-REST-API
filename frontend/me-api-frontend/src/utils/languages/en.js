@@ -1,4 +1,5 @@
 const PAGE_EN = {
+    value: 'en',
     menu: 'Menu',
     main_link: 'Main',
     descr_link: 'Description',
@@ -7,7 +8,7 @@ const PAGE_EN = {
     lang: 'Language',
     overlay_value: 'ru',
     overlay_lang: 'Русский',
-    ru: 'Russian',
+    ru: 'Русский',
     en: 'English',
     telegram: 'Have a questions? Visit chanel in Telegram',
     github: 'Project on GitHub',
