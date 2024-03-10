@@ -1,14 +1,18 @@
 import { useState } from 'react';
 import './TryApp.css';
 import TryAppData from './TryAppData';
+import { BASE_MEAPI_URL_RU } from '../../utils/constants';
 
 function TryApp ({language}) {
+    const [status, setStatus] = useState('418');
+    const [url, setUrl] = useState('')
+    const [res, setRes] = useState([]);
+    const [req, setReq] = useState({});
     const [isReqBtnActive, setIsReqBtnActive] = useState(false);
     const [isResBtnActive, setIsResBtnActive] = useState(true);
     const reqBtnClassName = isReqBtnActive ? 'reqres-btn reqres-btn_active' : 'reqres-btn';
     const resBtnClassName = isResBtnActive ? 'reqres-btn reqres-btn_active' : 'reqres-btn';
-
-    const resCode = 200;
+    const resCodeClassName = status === 200 || status === 201 ? 'response-code_code-green' : 'response-code_code-red';
 
     const toggleSpanClassName = (method) => {
         switch (method) {
@@ -24,12 +28,70 @@ function TryApp ({language}) {
                 break;
         }
     }
-    const renderMethodBtns = (value) => {        
+
+    const toggleReqMethod = (data) => {
+        switch (data.method) {
+            case 'GET':
+                getMethod(data)
+                break;
+            case 'POST':
+                postMethod(data)
+                break;
+            default:
+                break;
+        }
+    }
+
+    const renderJson = (res) => {
+        if (!res.ok) {
+            res.json().then((err) => {
+                setRes(err)
+            })
+        } else {res.json().then((res) => {
+            setRes(res)
+        })}
+    }
+
+    const getMethod = (data) => {
+        fetch(`${BASE_MEAPI_URL_RU}${data.value}`)
+          .then((res) => {
+            setStatus(res.status);
+            renderJson(res);
+          })
+          .catch((err) => {
+            console.log(err)
+          })
+    }
+
+    const postMethod = (data) => {
+        fetch(`${BASE_MEAPI_URL_RU}${data.value}`, {
+            method: 'POST',
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(data.request)
+        })
+        .then((res) => {
+            setStatus(res.status);
+            renderJson(res);
+        })
+        .catch((err) => console.log(err))
+    }
+    const renderBtns = (value) => {        
         return (
         TryAppData.map((data, i) => {
+            const handleBtnClick = () => {
+                setUrl(`${BASE_MEAPI_URL_RU}${data.value}`)
+                toggleReqMethod(data)
+                if (data?.request) {
+                    setReq(data.request)
+                } else {
+                    setReq({})
+                }
+            }
             return (
                 <li className='try-app__list-item' key={i++}>
-                    <button className='try-app__btn' value={data.value}>
+                    <button className='try-app__btn' type='button' onClick={handleBtnClick} value={data.value}>
                         <span className={`try-app__span ${toggleSpanClassName(data.method)}`}>{data.method}</span>{value === 'ru' ? data.nameRu : data.nameEn}
                     </button>
                 </li>
@@ -37,7 +99,7 @@ function TryApp ({language}) {
         })
     )}
 
-    const handleBtnClick = (e) => {
+    const handleTabClick = (e) => {
         switch (e.target.value) {
             case 'req':
                 setIsReqBtnActive(true);
@@ -52,40 +114,19 @@ function TryApp ({language}) {
         }
     }
 
-    const reqContent = `{
-
-}`;
-    const resContent = `{
-    "_id": "6548db28c383a41ab1b432ab",
-    "image": "",
-    "systemName": "",
-    "links": "",
-    "episode": "Mass Effect 2",
-    "type": {
-        "planet": "true",
-        "satelite": "false",
-        "colony": "true",
-        "station": "false"
-    },
-    "codex": "",
-    "nameEN": "Amaterasu",
-    "descriptionEN": "Amaterasu is a human colony, home to Ashley Williams' mother and sisters. It lies about a dozen light-years from the Czarnobóg Fleet Depot and is one of the smaller Alliance colonies. In 2181, Ashley took a week of extraordinary leave to return home to take care of her youngest sister, Sarah. Amaterasu is a terminus on the Illium-Amaterasu shipping lane. In 2185, as security advisories are being issued against travel to human colonies, none are issued for Amaterasu, possibly due to its proximity to an Alliance base.",
-    "nameRU": "Аматерасу",
-    "descriptionRU": "Аматерасу (англ. Amaterasu — колония людей, дом Эшли Уильямс, её матери и сестры. Эта колония лежит в дюжине световых лет от Быстроходного Склада Кзарнобог, и является одной из малых колоний Альянса. В 2181 году, Эшли взяла неделю экстраординарного отпуска, чтобы вернуться домой, и позаботиться о своей младшей сестре, Саре. Аматерасу — конечная остановка на маршруте Иллиум-Аматерасу (узнать можно, посмотрев расписание отправлений межпланетных шаттлов на стоянке такси Нос-Астра). Также там можно увидеть отменённые рейсы и оповещения безопасности, которые предостерегают инопланетян от посещения человеческих колоний. Однако, ни одно оповещение не было выпущено для Аматерасу, возможно из-за близости этой колонии к границе с пространством Цитадели. На планету регулярно отправляется шаттл из космопорта Нос-Астра, Иллиум."
-}`;
     return (
         <div className='try-app'>
             <ul className='try-app__list'>
-                {renderMethodBtns(language.value)}
+                {renderBtns(language.value)}
             </ul>
             <div className='try-app__reqres'>
-                <p className='reqres-url'></p>
+                <p className='reqres-url'>{url}</p>
                 <div className='reqres-controls'>
-                    <button className={reqBtnClassName} onClick={handleBtnClick} value={'req'}>Request</button>
-                    <button className={resBtnClassName} onClick={handleBtnClick} value={'res'}>Response</button>
-                    <p className='response-code'>Status code: <span className='response-code_code'>&#9679; {resCode}</span></p>
+                    <button className={reqBtnClassName} onClick={handleTabClick} value={'req'}>Request</button>
+                    <button className={resBtnClassName} onClick={handleTabClick} value={'res'}>Response</button>
+                    <p className='response-code'>Status code: <span className={resCodeClassName}>&#9679; {status}</span></p>
                 </div>
-                <pre className='response-body'>{isResBtnActive ? resContent : reqContent}</pre>
+                <pre className='response-body'>{isResBtnActive ? JSON.stringify(res, null, 1) : JSON.stringify(req, null, 1)}</pre>
             </div>
         </div>
     )
