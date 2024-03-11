@@ -39,7 +39,8 @@ const TryAppData = [
         method: 'GET',
         nameRu: 'По Id контакта',
         nameEn: 'by contact Id',
-        value: 'contacts/657d866188a46a437e241e6e',
+        value: 'contacts/',
+        byId: 'true',
     },
     {
         method: 'POST',
@@ -56,17 +57,17 @@ const TryAppData = [
         method: 'PATCH',
         nameRu: 'Изменить контакт',
         nameEn: 'Update contact',
-        value: 'contacts/657d866188a46a437e241e6e',
+        value: 'contacts/',
         request: {
-            "email": "email@example.com",
-            "phone": "03334447788"
+            "email": "email2@example.com",
+            "phone": "03334446688"
         }
     },
     {
         method: 'DELETE',
         nameRu: 'Удалить контакт',
         nameEn: 'Delete contact',
-        value: 'contacts/657d866188a46a437e241e6e/delete',
+        value: 'contacts/',
     },
 ]
 

@@ -1,18 +1,26 @@
 import { useState } from 'react';
 import './TryApp.css';
 import TryAppData from './TryAppData';
-import { BASE_MEAPI_URL_RU } from '../../utils/constants';
+import { BASE_MEAPI_URL_RU, TEAPOT_STATUS } from '../../utils/constants';
 
 function TryApp ({language}) {
-    const [status, setStatus] = useState('418');
-    const [url, setUrl] = useState('')
+    const [status, setStatus] = useState(TEAPOT_STATUS);
+    const [url, setUrl] = useState('');
     const [res, setRes] = useState([]);
-    const [req, setReq] = useState({});
+    const [req, setReq] = useState([]);
     const [isReqBtnActive, setIsReqBtnActive] = useState(false);
     const [isResBtnActive, setIsResBtnActive] = useState(true);
     const reqBtnClassName = isReqBtnActive ? 'reqres-btn reqres-btn_active' : 'reqres-btn';
     const resBtnClassName = isResBtnActive ? 'reqres-btn reqres-btn_active' : 'reqres-btn';
     const resCodeClassName = status === 200 || status === 201 ? 'response-code_code-green' : 'response-code_code-red';
+
+    const teapot = () => {
+        setStatus(TEAPOT_STATUS)
+        setUrl('')
+        setRes({
+            "message": "создайте пользователя"
+        })
+    }
 
     const toggleSpanClassName = (method) => {
         switch (method) {
@@ -37,23 +45,31 @@ function TryApp ({language}) {
             case 'POST':
                 postMethod(data)
                 break;
+            case 'DELETE':
+                deleteMethod(data)
+                break;
+            case 'PATCH':
+                patchMethod(data)
+                break;
             default:
                 break;
         }
     }
 
-    const renderJson = (res) => {
+    const renderJson = (res, post) => {
         if (!res.ok) {
             res.json().then((err) => {
                 setRes(err)
             })
         } else {res.json().then((res) => {
             setRes(res)
+            if (post) localStorage.setItem('id', res.id)
         })}
     }
 
     const getMethod = (data) => {
-        fetch(`${BASE_MEAPI_URL_RU}${data.value}`)
+        if (!localStorage.getItem('id') && data?.byId) {teapot(); return}
+        fetch(`${BASE_MEAPI_URL_RU}${data.value}${data?.byId ? localStorage.getItem('id') : ''}`)
           .then((res) => {
             setStatus(res.status);
             renderJson(res);
@@ -73,15 +89,71 @@ function TryApp ({language}) {
         })
         .then((res) => {
             setStatus(res.status);
-            renderJson(res);
+            renderJson(res, true);
         })
         .catch((err) => console.log(err))
+    }
+
+    const patchMethod = (data) => {
+        if (localStorage.getItem('id')) {
+            fetch(`${BASE_MEAPI_URL_RU}${data.value}${localStorage.getItem('id')}`, {
+                method: 'PATCH',
+                headers: {
+                    'content-type': 'application/json'
+                },
+                body: JSON.stringify(data.request)
+            })
+            .then((res) => {
+                setStatus(res.status);
+                renderJson(res)
+            })
+            .catch((err) => console.log(err))
+        } else {
+            teapot();
+        }
+    }
+
+    const deleteMethod = (data) => {
+        if (localStorage.getItem('id')) {
+            fetch(`${BASE_MEAPI_URL_RU}${data.value}${localStorage.getItem('id')}/delete`, {
+                method: 'DELETE',
+                headers: {
+                    'content-type': 'application/json'
+                },
+            })
+            .then(res => {
+                setStatus(res.status)
+                renderJson(res)
+            })
+            .catch(err => console.log(err))
+        } else {
+            teapot();
+        }
     }
     const renderBtns = (value) => {        
         return (
         TryAppData.map((data, i) => {
+
+            const handleSetUrl = (data) => {
+                switch (data.method) {
+                    case 'DELETE':
+                        setUrl(`${BASE_MEAPI_URL_RU}${data.value}${localStorage.getItem('id')+`/delete`}`)
+                        break;
+                    case 'PATCH':
+                        setUrl(`${BASE_MEAPI_URL_RU}${data.value}${localStorage.getItem('id')}`)
+                        break;
+                    default:
+                        if (data?.byId) {
+                            setUrl(`${BASE_MEAPI_URL_RU}${data.value}${localStorage.getItem('id')}`)
+                        } else {
+                            setUrl(`${BASE_MEAPI_URL_RU}${data.value}`)
+                        }
+                        break;
+                }
+            }
+
             const handleBtnClick = () => {
-                setUrl(`${BASE_MEAPI_URL_RU}${data.value}`)
+                handleSetUrl(data)
                 toggleReqMethod(data)
                 if (data?.request) {
                     setReq(data.request)
