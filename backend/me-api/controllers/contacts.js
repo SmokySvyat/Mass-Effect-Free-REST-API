@@ -63,9 +63,18 @@ const createContact = async (req, res, next) => {
         parent,
       })
         .then(() => {
-          res
-            .status(CREATED)
-            .send({ email });
+          contactModel.findOne({ email })
+            .then((user) => {
+              res
+                .status(CREATED)
+                .send({
+                  id: user._id,
+                  email: user.email,
+                });
+            });
+          // res
+          //   .status(CREATED)
+          //   .send({ email });
         })
         .catch((err) => {
           if (err.code === ERROR_CODE_UNIQUE && !err.keyPattern.email === false) {
