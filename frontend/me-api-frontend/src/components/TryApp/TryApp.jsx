@@ -18,6 +18,8 @@ export default function TryApp ({language}) {
     const resTabClassName = isResBtnActive ? 'reqres-btn reqres-btn_active' : 'reqres-btn';
     const resCodeClassName = status === 200 || status === 201 ? 'response-code_code-green' : 'response-code_code-red';
 
+
+// *** Рендер кнопок меню ***
     function Btns ({lang}) {
         return (
             TryAppData.map((data, i) => {
@@ -168,6 +170,7 @@ export default function TryApp ({language}) {
         )
     }
 
+// *** Обработка клика по вкладкам ***
     const handleTabClick = (e) => {
         switch (e.target.value) {
             case 'req':
@@ -183,13 +186,15 @@ export default function TryApp ({language}) {
         }
     }
     
-//убираем лишний рендер кнопок
+// *** Убираем лишний рендер кнопок ***
     const btns = useMemo(() => {
         return <Btns lang = {language.value} />
     }, [language.value])
 
+// *** Выбираем какой контент будет отображаться в окне ответа ***
     const content = isResBtnActive ? JSON.stringify(res, null, 1) : JSON.stringify(req, null, 1)
 
+// *** Возвращаем вёрстку ***
     return (
         <div className='try-app'>
             <ul className='try-app__list'>
