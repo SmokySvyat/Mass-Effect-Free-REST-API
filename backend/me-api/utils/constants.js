@@ -10,10 +10,10 @@ const INTERNAL_CODE = 500;
 
 const limiter = rateLimiter({
   windowMs: 15 * 60 * 1000,
-  max: 100,
+  max: 50,
   standardHeaders: true,
   legacyHeaders: false,
-  message: 'Слишком много запросов с вашего IP, пожалуйста, повторите запрос позже',
+  message: { message: 'Слишком много запросов с вашего IP, пожалуйста, повторите запрос позже' },
 });
 
 const {
