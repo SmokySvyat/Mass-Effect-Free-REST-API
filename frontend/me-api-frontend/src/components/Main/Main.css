@@ -16,7 +16,7 @@
   overflow: hidden;
 }
 
-.article {
+.section {
   max-width: 1150px;
   padding: 60px;
   margin: 50px 0;
@@ -86,7 +86,7 @@
   .main {
     padding: 30px;
   }
-  .article {
+  .section {
     padding: 30px;
 
     font-size: 16px;
@@ -97,7 +97,7 @@
   .main {
     padding: 10px;
   }
-  .article {
+  .section {
     padding: 10px;
     
     font-size: 14px;
