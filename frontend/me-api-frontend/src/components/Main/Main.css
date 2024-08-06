@@ -12,7 +12,6 @@
   width: 100%;
   background-color: #02023a;
 
-  /* overflow: auto; */
   overflow: hidden;
 }
 
@@ -34,6 +33,22 @@
   box-shadow: 0 0 10px 5px #010120;
 }
 
+.section__title {
+  margin: 20px 0;
+
+  line-height: 25px;
+  font-size: 27px;
+  letter-spacing: 0.6px;
+}
+
+.section__subtitle {
+  margin: 20px 0;
+
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 0.8px;
+}
+
 .code {
   box-sizing: border-box;
   padding: 0 15px;
@@ -53,9 +68,38 @@
   padding: 0;
 }
 
+.spec-list__title {
+  margin: 20px 0;
+
+  text-align: left;
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 0.8px;
+}
+
 .spec-list__item {
-  /* box-shadow: 0 0 10px 10px black; */
+  margin-top: 70px;
   border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.spec-list__item:first-of-type {
+  margin-top: 30px;
+}
+
+.spec-list__item-title {
+  margin: 70px 0 0 0;
+
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.6px;
+}
+
+.spec-list__item-description {
+  margin: 20px 0;
+
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
 }
 
 .span-collection {

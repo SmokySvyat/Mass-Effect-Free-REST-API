@@ -46,7 +46,7 @@ function App() {
   }, );
 
   return (
-    <div className="app">
+    <>
       <Header />
       <Navigation
         isMobile = {isMobile}
@@ -59,7 +59,7 @@ function App() {
       <Footer
         language = {handleLanguage()}
       />
-    </div>
+    </>
   );
 }
 

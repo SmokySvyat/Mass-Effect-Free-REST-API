@@ -25,7 +25,7 @@ const TryAppData = [
     },
     {
         method: 'GET',
-        nameRu: 'Все планеты (постранично)',
+        nameRu: 'Все планеты (страницы)',
         nameEn: 'All planets (pages)',
         value: 'planets/page/1-10',
     },

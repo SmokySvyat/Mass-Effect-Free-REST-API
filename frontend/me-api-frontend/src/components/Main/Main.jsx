@@ -2,24 +2,26 @@ import './Main.css';
 import TryApp from '../TryApp/TryApp';
 
 function Main ({language}) {
-    function Description({description}) {
+    function Description() {
         const {
-            title,
+            description,
+            titles,
+         } = language
+        const {
             paragraphs,
-            subtitle,
-            paragraphsSt
+            paragraphsTry,
         } = description;
         
         return (
             <>
-            <h2>{title}</h2>
+            <h2 className='section__title'>{titles.description}</h2>
             {paragraphs.map((el, i) => {
                 return (
                     <p key={i++}>{el}</p>
                 )
             })}
-            <h3>{subtitle}</h3>
-            {paragraphsSt.map((el, i) => {
+            <h3 className='section__subtitle'>{titles.try_it}</h3>
+            {paragraphsTry.map((el, i) => {
                 return (
                     <p key={i++}>{el}</p>
                 )
@@ -28,12 +30,15 @@ function Main ({language}) {
         )
     }
 
-    function Specification({specification}) {
-        console.log(specification)
+    function Specification() {
+        const {
+            titles,
+            endpoints
+         } = language
 
-        const content = () => {
+        const endpointsContent = () => {
             return (
-            specification.map((article, i) => {
+            endpoints.map((article, i) => {
                 const {
                     heading,
                     endpoint,
@@ -41,7 +46,6 @@ function Main ({language}) {
                     code,
                     errors
                 } = article;
-                console.log(code)
                 return (
                     <li className='spec-list__item' key={i++}>
                         <h4 className='spec-list__item-title'>{heading}{endpoint ? <span className='span-url'>{` | ${endpoint}`}</span> : ''}</h4>
@@ -59,10 +63,11 @@ function Main ({language}) {
 
         return (
             <>
+                <h2 className='section__title'>{titles.specification}</h2>
                 <article>
-                    <h3>Запросы и эндпоинты</h3>
+                    <h3 className='spec-list__title'>{titles.requests_endpoints}</h3>
                     <ul className='spec-list'>
-                        {content()}
+                        {endpointsContent()}
                     </ul>
                 </article>
             </>
@@ -71,76 +76,14 @@ function Main ({language}) {
     return (
         <main className="main">
             <section  id="about" className='section'>
-                <Description 
-                    description = {language.description}
-                />
+                <Description />
                 <TryApp
                     language = {language}
                 />
             </section>
-        <section id="spec" className="section">
-            <h2>Спецификация</h2>
-          <ul className='spec-list'>
-            <Specification specification={language.specification} />
-
-            <li className='spec-list__item'>
-                <h4 className='spec-list__item-title'>PATCH | <span className='span-url'>contacts/:id</span></h4>
-                <p className='spec-list__item-description'>
-                    Изменяет существующие данные в документе с запрашиваемым Id, кроме пароля. Возвращает объект с изменённым(и) значением(ями).
-                    Пример отправки запроса по эндпоинту <span className='span-url'>/api/contacts/657d866188a46a437e241e6e</span>. 
-                    <br />Тело запроса должно быть в формате JSON следующей структуры:
-                </p>
-                <pre className='code' dangerouslySetInnerHTML={
-                    {__html: `
-{
-    "email": "email@example.com",
-    "phone": "03334447788"
-}
-                    `}
-                } />
-                <p className='spec-list__item-description'>
-                    или может содержать только одно из значений, email или phone.
-                </p>
-                <p className='spec-list__item-description'>
-                    Валидация значений, объекты с сообщениями об ошибках такие же, как при создании документа.
-                </p>
-                <p className='spec-list__item-description'>
-                    При успешном обновлении документа, так же, создаётся, если документ ещё не обновлялся, или обновляется ключ <span className='code'>updatedAt:</span> со 
-                    значением даты обновления в формате <span className='code'>2023-12-18T07:19:25.511+00:00</span>.
-                </p>
-                <p className='spec-list__item-description'>
-                    При попытке отправки значений уже имеющихся в документе, вернется объект с сообщением, что документ с таким значением уже существует. Например: в базе 
-                    существует пользователь с номером 03334447788, первым запросом мы изменяем его номер на 04445556677, и при попытке отправки второго и последующих запросов 
-                    с номером 04445556677 будет возвращаться сообщение: "message": "Пользователь с таким phone уже зарегистрирован".
-                </p>
-                <p className='spec-list__item-description'>
-                    Запрос документа по несуществующему Id возвращает объект с сообщением.
-                    <br />Ошибка "<a href='#not-found' className='span-error'>Not Found</a>".
-                </p>
-            </li>
-
-            <li className='spec-list__item'>
-                <h4 className='spec-list__item-title'>DELETE | <span className='span-url'>contacts/:id/delete</span></h4>
-                <p className='spec-list__item-description'>
-                    Удаляет документ с запрашиваемым Id. Возвращает объект с сообщением об успешном удалении.
-                </p>
-                <p className='spec-list__item-description'>
-                    Пример запроса: <span className='span-url'>/api/contacts/657d866188a46a437e241e6e/delete</span>
-                </p>
-                <pre className='code' dangerouslySetInnerHTML={
-                    {__html: `
-{
-    "message": "Контакт удалён."
-}
-                    `}
-                } />
-                <p className='spec-list__item-description'>
-                    Запрос удаления документа по несуществующеу Id вернёт объект с сообщением.
-                    <br />Ошибка "<a href='#not-found' className='span-error'>Not Found</a>".
-                </p>
-            </li>
-          </ul>
-        </section>
+            <section id="spec" className="section">
+                <Specification />
+            </section>
       </main>
     )
 }
